@@ -1,0 +1,68 @@
+@media screen and (max-width: 1245px) {
+
+  /* hero  Section Start */
+  .heroTitle4 {
+    font-size: 45px;
+  }
+
+  .hero4para {
+    font-size: 14px;
+  }
+
+  .privacy {
+    width: 500px;
+    height: 400px;
+  }
+
+  .PrivacyTitle {
+    font-size: 32px;
+  }
+
+  /* hero  Section end */
+}
+
+@media screen and (max-width: 1024px) {
+  /* hero section start */
+  /* hero section end */
+}
+
+@media screen and (max-width: 869px) {
+
+  /* hero section start */
+  .heroArea4 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+
+  .heroTxts4 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  /* hero section end */
+  .heroSection4 {
+    padding-top: 6em;
+  }
+
+  .hero-images4 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .heroTitle4 {
+    font-size: 38px;
+  }
+
+  .privacy {
+    width: 100%;
+    height: 100%;
+  }
+
+  .PrivacyTitle {
+    font-size: 16px;
+  }
+}

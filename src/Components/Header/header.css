@@ -7,7 +7,7 @@
   backdrop-filter: blur(20px);
   top: 0;
   left: 0;
-  padding: 2em 0em;
+  padding: 1em 0em;
   border-bottom: solid 1px #2626268c;
 }
 .header_div_area {
@@ -18,6 +18,14 @@
 .header_div_area_1 {
   font-size: 32px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.header_div_area_1_img {
+  width: 45px;
+  margin-right: 6px;
+  margin-bottom: 5px;
 }
 .header_div_area_2 {
   display: flex;
@@ -27,8 +35,84 @@
 .header_div_area_2_link1 {
   margin-left: 2em;
   cursor: pointer;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
-
+.header_div_area_2_link1_icon {
+  font-size: 16px !important;
+}
 .header_div_area_2_link1:hover {
   color: #3cd19a;
+}
+.header_div_area_2_menu_icon {
+  display: none !important;
+}
+.headerMenuDiv {
+  display: none;
+}
+@media (max-width: 999px) {
+  .header_div_area_1_img {
+    width: 35px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+  }
+  .header_div_area_1 {
+    font-size: 28px;
+  }
+  .header_div_area_2_link1 {
+    display: none;
+  }
+  .header_div_area_2_menu_icon {
+    display: block !important;
+    font-size: 38px !important;
+    color: #dafff1;
+    cursor: pointer;
+  }
+  .headerMenuDiv {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #000000d9;
+    display: flex;
+    justify-content: flex-end;
+    /* backdrop-filter: blur(5px); */
+  }
+  .headerMenuDiv_cont {
+    height: 100%;
+    width: 100%;
+    max-width: 320px;
+    padding: 1em 1em;
+    /* background: grey; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background: linear-gradient(178deg, #2f4d4bb5, #344948b3);
+    backdrop-filter: blur(3px);
+  }
+  .headerMenuDiv_cont_body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin-top: 4em;
+  }
+  .headerMenuDiv_cont_body_link1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0em;
+    color: #fff;
+  }
+  .headerMenuDiv_cont_1_icon {
+    /* display: block !important; */
+    font-size: 38px !important;
+    color: #dafff1;
+    cursor: pointer;
+  }
 }

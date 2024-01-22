@@ -53,16 +53,16 @@ input:-webkit-autofill:active {
 input:focus-visible {
   outline: none;
   border: solid;
-  border-color: #ff562387;
+  border-color: #42c98a75;
   border-width: 1px;
-  box-shadow: 0px 0px 1px 4px #ff562387;
+  box-shadow: 0px 0px 1px 4px #42c98a75;
   transition: 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 input:-internal-autofill-selected {
   background-color: #222035a8 !important;
 }
 ::selection {
-  background-color: #ff562387;
+  background-color: #42c98a75;
   color: #fff;
 }
 button:focus {
