@@ -1,0 +1,240 @@
+.egox_token_div_section1 {
+  background: #000;
+  background-image: radial-gradient(#3cd19929, #000);
+  color: #fff;
+  padding: 6em 0em;
+  /* padding-bottom: 0em; */
+  overflow: hidden;
+  position: relative;
+  padding-top: 10em;
+}
+.egox_token_div_section1area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+.home_div_section3_area_body_paragraph {
+  line-height: 2;
+  font-size: 24px;
+  font-weight: 300;
+  color: #d6ece5;
+}
+.egox_token_div_section1area_cont2 {
+  width: -webkit-fill-available;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5em;
+  border: solid 1px #25362f;
+  padding: 3em 2em;
+  border-radius: 15px;
+  background: linear-gradient(178deg, #2f4d4b5c, #3449481c);
+  border: solid 1px #0c1c1b;
+}
+.home_div_section1_area_stats_div1_title {
+  font-size: 42px;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+.home_div_section1_area_stats_div1_para {
+  color: #3cd199;
+}
+.egox_token_div_section1area_cont1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.egox_token_div_section1area1 {
+  width: 100%;
+  margin-right: 2em;
+}
+.egox_token_div_section1area1_title {
+  font-size: 82px;
+  font-weight: 700;
+}
+.egox_token_div_section1area1_para {
+  font-size: 24px;
+  margin-top: 1em;
+  color: #abd0c1;
+}
+.egox_token_div_section1area2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.egox_token_div_section1area2_img {
+  width: 100%;
+}
+.egox_token_div_section2 {
+  background: #000;
+  background-image: radial-gradient(#3cd19929, #000);
+  color: #fff;
+  padding: 6em 0em;
+  position: relative;
+  z-index: 1;
+}
+.egox_token_div_section2_area {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+.egox_token_div_section2_area_title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.egox_token_div_section2_area_body {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+.egox_token_div_section2_area_body_cont1 {
+  margin: 0px 10px;
+  /* border: solid 1px #25362f; */
+  /* padding: 2em; */
+  /* border-radius: 11px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 2em;
+  min-height: 24em;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(178deg, #2f4d4b5c, #3449481c);
+  border: solid 1px #0c1c1b;
+  cursor: pointer;
+}
+.egox_token_div_section2_area_body_cont1_icon_div {
+  width: 70px;
+  margin-bottom: 13px;
+}
+.egox_token_div_section2_area_body_cont1_icon_div_img {
+  width: 100%;
+}
+.egox_token_div_section2_area_body_cont1_title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.egox_token_div_section2_area_body_cont1_para {
+  color: #abd0c1;
+}
+.egox_token_div_section3 {
+  background: #000;
+  background-image: radial-gradient(#3cd19929, #000);
+  color: #fff;
+  padding: 6em 0em;
+  position: relative;
+  padding-top: 10em;
+  /* overflow: hidden; */
+}
+.egox_token_div_section3_area {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.egox_token_div_section3_area_title {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  font-size: 48px;
+  font-weight: 700;
+}
+.egox_token_div_section3_area_title_para {
+  color: #abd0c1;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.egox_token_div_section3_area_body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.egox_token_div_section3_area_body_img {
+  width: 70%;
+}
+
+.grains_ellipse_roadmap {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.2;
+}
+@media (max-width: 999px) {
+  .egox_token_div_section2_area_body {
+    flex-direction: column;
+  }
+  .egox_token_div_section2_area_body_cont1 {
+    margin: 10px 0px;
+  }
+  .egox_token_div_section1area_cont1 {
+    flex-direction: column;
+  }
+  .egox_token_div_section1area2_img {
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  .egox_token_div_section1area1 {
+    width: 100%;
+    margin-right: 0em;
+    margin-bottom: 2em;
+  }
+  .egox_token_div_section1area1_para {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  .egox_token_div_section1area1_title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+  .egox_token_div_section1area_cont2 {
+    padding: 1em;
+    border-radius: 15px;
+    width: -webkit-fill-available;
+    display: grid;
+    gap: 23px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: flex-start;
+  }
+  .egox_token_div_section2 {
+    padding: 4em 0em;
+  }
+  .egox_token_div_section1 {
+    padding: 4em 0em;
+    padding-top: 8em;
+  }
+  .egox_token_div_section3 {
+    padding: 4em 0em;
+    padding-top: 8em;
+  }
+  .egox_token_div_section3 {
+    padding: 2em 0em;
+    padding-top: 8em;
+  }
+  .egox_token_div_section3_area_title {
+    font-size: 38px;
+  }
+  .egox_token_div_section2_area_body_cont1_title {
+    font-size: 24px;
+  }
+  .egox_token_div_section2_area_title {
+    font-size: 38px;
+  }
+  .egox_token_div_section3_area_body_img {
+    width: 100%;
+  }
+}
