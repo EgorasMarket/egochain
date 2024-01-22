@@ -15,13 +15,13 @@ const Home = () => {
   const wallets = [
     {
       id: "1",
-      title: "Egoxify",
-      img: "/img/walletsImg/egox_icon.png",
+      title: "Coinbase",
+      img: "/img/walletsImg/coinbase_icon.png",
       body: (
         <div className="wallets_body">
           <span>
-            Egoxify is a global digital wallet functioning as a web browser
-            extension. With Egoxify, you can safely and seamlessly manage the
+            Coinbase is a global digital wallet functioning as a web browser
+            extension. With Coinbase, you can safely and seamlessly manage the
             Egochain-based tokens that you control.
           </span>
           <br />
