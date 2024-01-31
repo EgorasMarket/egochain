@@ -92,6 +92,9 @@ const Header = () => {
               <a href="/about" className="headerMenuDiv_cont_body_link1">
                 About
               </a>
+              <a href="/whitepaper" className="headerMenuDiv_cont_body_link1">
+                White paper
+              </a>
               <a
                 href="https://egodao.org/"
                 className="headerMenuDiv_cont_body_link1"
