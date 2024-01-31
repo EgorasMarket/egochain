@@ -106,6 +106,7 @@
   .whitepaper_div {
     padding: 0em 0em;
     padding-top: 10em;
+    height: 100%;
   }
   .whitePaper_div_area_body_side {
     display: none;
@@ -166,5 +167,16 @@
     margin-top: 12px !important;
     font-weight: 600 !important;
     /* height: 100%; */
+  }
+  .whitepaper_div .grains_ellipse {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    object-fit: cover;
+  }
+  .whitePaper_div_area_body {
+    height: 100%;
   }
 }
