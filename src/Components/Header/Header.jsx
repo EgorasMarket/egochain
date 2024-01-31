@@ -47,7 +47,7 @@ const Header = () => {
               className="header_div_area_2_link1"
               target="_blank"
             >
-              Governance
+              Stake
               <CallMadeIcon className="header_div_area_2_link1_icon" />
             </a>
 
@@ -101,7 +101,7 @@ const Header = () => {
                 target="_blank"
               >
                 {" "}
-                Governance
+                Stake
                 <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
             </div>

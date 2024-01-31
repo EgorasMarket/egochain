@@ -106,7 +106,7 @@ const Footer = () => {
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
                   >
-                    Governance
+                    Stake
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                 </div>
