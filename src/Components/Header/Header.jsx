@@ -39,6 +39,9 @@ const Header = () => {
             <a href="/about" className="header_div_area_2_link1">
               About
             </a>
+            <a href="/whitepaper" className="header_div_area_2_link1">
+              Whitepaper
+            </a>
             <a
               href="https://egodao.org/"
               className="header_div_area_2_link1"

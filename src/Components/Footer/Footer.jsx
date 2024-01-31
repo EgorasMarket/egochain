@@ -121,6 +121,12 @@ const Footer = () => {
                     About
                   </a>
                   <a
+                    href="/whitepaper"
+                    className="footerDiv1_area2_title_subLinks_div_link1"
+                  >
+                    White paper
+                  </a>
+                  <a
                     href="/privacy"
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >

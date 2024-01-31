@@ -9,6 +9,7 @@ import RoadMapPage from "./Components/Home/RoadMapPage";
 import Egax from "./Components/Home/Egax";
 import Privacy from "./Components/PrivacyPolicy/Privacy";
 import TermsAndConditions from "./Components/PrivacyPolicy/TermsAndConditions";
+import WhitePaper from "./Components/Home/WhitePaper/WhitePaper";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/privacy" element={<Privacy />} />
+        <Route path="/whitepaper" element={<WhitePaper />} />
         <Route path="/terms" element={<TermsAndConditions />} />
         <Route path="/egc/coin/info" element={<Egc />} />
         <Route path="/egax/coin/info" element={<Egax />} />

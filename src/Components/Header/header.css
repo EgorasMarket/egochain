@@ -51,6 +51,24 @@
 .headerMenuDiv {
   display: none;
 }
+
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
+/* ================= */
 @media (max-width: 999px) {
   .header_div_area_1_img {
     width: 35px;
@@ -84,7 +102,7 @@
   .headerMenuDiv_cont {
     height: 100%;
     width: 100%;
-    max-width: 320px;
+    max-width: 400px;
     padding: 1em 1em;
     /* background: grey; */
     display: flex;
@@ -99,15 +117,16 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
-    margin-top: 4em;
+    margin-top: 1em;
   }
   .headerMenuDiv_cont_body_link1 {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     padding: 1em 0em;
     color: #fff;
+    font-size: 20px;
   }
   .headerMenuDiv_cont_1_icon {
     /* display: block !important; */
