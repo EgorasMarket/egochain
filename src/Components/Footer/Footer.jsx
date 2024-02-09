@@ -27,7 +27,11 @@ const Footer = () => {
           <div className="footerDiv1">
             <div className="footerDiv1_area1">
               <div className="footerDiv1_area1_cont1">
-                <img src="/egc_icon2.svg" alt="" className="footerDiv1_img2" />
+                <img
+                  src="/img/egax_logo.png"
+                  alt=""
+                  className="footerDiv1_img2"
+                />
                 Egochain
               </div>
               <div className="footerDiv1_area1_cont2">

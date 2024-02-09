@@ -14,7 +14,7 @@ const Header = () => {
         <div className="header_div_area">
           <a href="/" className="header_div_area_1">
             <img
-              src="/egc_icon2.svg"
+              src="/img/egax_logo.png"
               alt=""
               className="header_div_area_1_img"
             />
