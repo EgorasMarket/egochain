@@ -95,7 +95,7 @@ const Header = () => {
               href={
                 window.location.protocol === "http:"
                   ? `http://faucet.localhost:${window.location.port}/`
-                  : `https://faucet.egodao.org/`
+                  : `https://faucet.egochain.org/`
               }
               className="header_div_area_2_link1"
               target="_blank"
@@ -104,7 +104,7 @@ const Header = () => {
               <CallMadeIcon className="header_div_area_2_link1_icon" />
             </a>
             <a
-              href="https://egochain.org/"
+              href="https://egodao.org/"
               className="header_div_area_2_link1"
               target="_blank"
             >
@@ -204,7 +204,7 @@ const Header = () => {
                 href={
                   window.location.protocol === "http:"
                     ? `http://faucet.localhost:${window.location.port}/`
-                    : `https://faucet.egodao.org/`
+                    : `https://faucet.egochain.org/`
                 }
                 className="headerMenuDiv_cont_body_link1"
                 target="_blank"
@@ -214,7 +214,7 @@ const Header = () => {
                 <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
               <a
-                href="https://egochain.org/"
+                href="https://egodao.org/"
                 className="headerMenuDiv_cont_body_link1"
                 target="_blank"
               >

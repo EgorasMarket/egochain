@@ -114,7 +114,7 @@ const Footer = () => {
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                   <a
-                    href="https://egochain.org/"
+                    href="https://egodao.org/"
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
                   >
@@ -125,7 +125,7 @@ const Footer = () => {
                     href={
                       window.location.protocol === "http:"
                         ? `http://faucet.localhost:${window.location.port}/`
-                        : `https://faucet.egodao.org/`
+                        : `https://faucet.egochain.org/`
                     }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
