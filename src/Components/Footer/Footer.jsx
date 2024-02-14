@@ -89,7 +89,7 @@ const Footer = () => {
                     href={
                       window.location.protocol === "http:"
                         ? `http://localhost:${window.location.port}/egax/coin/info`
-                        : `https://egodao.org/egax/coin/info`
+                        : `https://egochain.org/egax/coin/info`
                     }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
@@ -99,7 +99,7 @@ const Footer = () => {
                     href={
                       window.location.protocol === "http:"
                         ? `http://localhost:${window.location.port}/egc/coin/info`
-                        : `https://egodao.org/egc/coin/info`
+                        : `https://egochain.org/egc/coin/info`
                     }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
@@ -114,7 +114,7 @@ const Footer = () => {
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                   <a
-                    href="https://egodao.org/"
+                    href="https://egochain.org/"
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
                   >
@@ -142,7 +142,7 @@ const Footer = () => {
                     href={
                       window.location.protocol === "http:"
                         ? `http://localhost:${window.location.port}/about`
-                        : `https://egodao.org/about`
+                        : `https://egochain.org/about`
                     }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
@@ -152,7 +152,7 @@ const Footer = () => {
                     href={
                       window.location.protocol === "http:"
                         ? `http://localhost:${window.location.port}/whitepaper`
-                        : `https://egodao.org/whitepaper`
+                        : `https://egochain.org/whitepaper`
                     }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
@@ -162,7 +162,7 @@ const Footer = () => {
                     href={
                       window.location.protocol === "http:"
                         ? `http://localhost:${window.location.port}/privacy`
-                        : `https://egodao.org/privacy`
+                        : `https://egochain.org/privacy`
                     }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
@@ -172,7 +172,7 @@ const Footer = () => {
                     href={
                       window.location.protocol === "http:"
                         ? `http://localhost:${window.location.port}/terms`
-                        : `https://egodao.org/terms`
+                        : `https://egochain.org/terms`
                     }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >

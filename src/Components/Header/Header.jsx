@@ -40,7 +40,7 @@ const Header = () => {
                   href={
                     window.location.protocol === "http:"
                       ? `http://localhost:${window.location.port}/egax/coin/info`
-                      : `https://egodao.org/egax/coin/info`
+                      : `https://egochain.org/egax/coin/info`
                   }
                   className="header_div_area_2_link1"
                 >
@@ -55,7 +55,7 @@ const Header = () => {
                   href={
                     window.location.protocol === "http:"
                       ? `http://localhost:${window.location.port}/egc/coin/info`
-                      : `https://egodao.org/egc/coin/info`
+                      : `https://egochain.org/egc/coin/info`
                   }
                   className="header_div_area_2_link1"
                 >
@@ -71,7 +71,7 @@ const Header = () => {
                   href={
                     window.location.protocol === "http:"
                       ? `http://localhost:${window.location.port}/about`
-                      : `https://egodao.org/about`
+                      : `https://egochain.org/about`
                   }
                   className="header_div_area_2_link1"
                 >
@@ -81,7 +81,7 @@ const Header = () => {
                   href={
                     window.location.protocol === "http:"
                       ? `http://localhost:${window.location.port}/whitepaper`
-                      : `https://egodao.org/whitepaper`
+                      : `https://egochain.org/whitepaper`
                   }
                   className="header_div_area_2_link1"
                 >
@@ -104,7 +104,7 @@ const Header = () => {
               <CallMadeIcon className="header_div_area_2_link1_icon" />
             </a>
             <a
-              href="https://egodao.org/"
+              href="https://egochain.org/"
               className="header_div_area_2_link1"
               target="_blank"
             >
@@ -164,7 +164,7 @@ const Header = () => {
                 href={
                   window.location.protocol === "http:"
                     ? `http://localhost:${window.location.port}/egax/coin/info`
-                    : `https://egodao.org/egax/coin/info`
+                    : `https://egochain.org/egax/coin/info`
                 }
                 className="headerMenuDiv_cont_body_link1"
               >
@@ -174,7 +174,7 @@ const Header = () => {
                 href={
                   window.location.protocol === "http:"
                     ? `http://localhost:${window.location.port}/egc/coin/info`
-                    : `https://egodao.org/egc/coin/info`
+                    : `https://egochain.org/egc/coin/info`
                 }
                 className="headerMenuDiv_cont_body_link1"
               >
@@ -184,7 +184,7 @@ const Header = () => {
                 href={
                   window.location.protocol === "http:"
                     ? `http://localhost:${window.location.port}/about`
-                    : `https://egodao.org/about`
+                    : `https://egochain.org/about`
                 }
                 className="headerMenuDiv_cont_body_link1"
               >
@@ -194,7 +194,7 @@ const Header = () => {
                 href={
                   window.location.protocol === "http:"
                     ? `http://localhost:${window.location.port}/whitepaper`
-                    : `https://egodao.org/whitepaper`
+                    : `https://egochain.org/whitepaper`
                 }
                 className="headerMenuDiv_cont_body_link1"
               >
@@ -214,7 +214,7 @@ const Header = () => {
                 <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
               <a
-                href="https://egodao.org/"
+                href="https://egochain.org/"
                 className="headerMenuDiv_cont_body_link1"
                 target="_blank"
               >
