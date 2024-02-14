@@ -13,7 +13,7 @@ const Header = () => {
   };
   return (
     <div className="header_div">
-      <div className="container">
+      <div className="container_fluid">
         <div className="header_div_area">
           <a href="/" className="header_div_area_1">
             <img
@@ -36,7 +36,14 @@ const Header = () => {
               Learn{" "}
               <KeyboardArrowDownIcon className="header_div_area_2_div_icon" />
               <div className="header_div_area_2_div_drop">
-                <a href="/egax/coin/info" className="header_div_area_2_link1">
+                <a
+                  href={
+                    window.location.protocol === "http:"
+                      ? `http://localhost:${window.location.port}/egax/coin/info`
+                      : `https://egodao.org/egax/coin/info`
+                  }
+                  className="header_div_area_2_link1"
+                >
                   <img
                     src="/egax_logo.png"
                     alt=""
@@ -44,7 +51,14 @@ const Header = () => {
                   />{" "}
                   EGAX Coin
                 </a>
-                <a href="/egc/coin/info" className="header_div_area_2_link1">
+                <a
+                  href={
+                    window.location.protocol === "http:"
+                      ? `http://localhost:${window.location.port}/egc/coin/info`
+                      : `https://egodao.org/egc/coin/info`
+                  }
+                  className="header_div_area_2_link1"
+                >
                   <img
                     src="/egc_icon2.svg"
                     alt=""
@@ -53,16 +67,42 @@ const Header = () => {
                   EGC Coin
                 </a>
 
-                <a href="/about" className="header_div_area_2_link1">
+                <a
+                  href={
+                    window.location.protocol === "http:"
+                      ? `http://localhost:${window.location.port}/about`
+                      : `https://egodao.org/about`
+                  }
+                  className="header_div_area_2_link1"
+                >
                   <InfoIcon className="header_div_area_2_link1_icon" /> About
                 </a>
-                <a href="/whitepaper" className="header_div_area_2_link1">
+                <a
+                  href={
+                    window.location.protocol === "http:"
+                      ? `http://localhost:${window.location.port}/whitepaper`
+                      : `https://egodao.org/whitepaper`
+                  }
+                  className="header_div_area_2_link1"
+                >
                   <DescriptionIcon className="header_div_area_2_link1_icon" />{" "}
                   Whitepaper
                 </a>
               </div>
             </div>
 
+            <a
+              href={
+                window.location.protocol === "http:"
+                  ? `http://faucet.localhost:${window.location.port}/`
+                  : `https://faucet.egodao.org/`
+              }
+              className="header_div_area_2_link1"
+              target="_blank"
+            >
+              Faucet
+              <CallMadeIcon className="header_div_area_2_link1_icon" />
+            </a>
             <a
               href="https://egodao.org/"
               className="header_div_area_2_link1"
@@ -121,22 +161,57 @@ const Header = () => {
                 <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
               <a
-                href="/egax/coin/info"
+                href={
+                  window.location.protocol === "http:"
+                    ? `http://localhost:${window.location.port}/egax/coin/info`
+                    : `https://egodao.org/egax/coin/info`
+                }
                 className="headerMenuDiv_cont_body_link1"
               >
                 EGAX Coin
               </a>
               <a
-                href="/egc/coin/info"
+                href={
+                  window.location.protocol === "http:"
+                    ? `http://localhost:${window.location.port}/egc/coin/info`
+                    : `https://egodao.org/egc/coin/info`
+                }
                 className="headerMenuDiv_cont_body_link1"
               >
                 EGC Coin
               </a>
-              <a href="/about" className="headerMenuDiv_cont_body_link1">
+              <a
+                href={
+                  window.location.protocol === "http:"
+                    ? `http://localhost:${window.location.port}/about`
+                    : `https://egodao.org/about`
+                }
+                className="headerMenuDiv_cont_body_link1"
+              >
                 About
               </a>
-              <a href="/whitepaper" className="headerMenuDiv_cont_body_link1">
+              <a
+                href={
+                  window.location.protocol === "http:"
+                    ? `http://localhost:${window.location.port}/whitepaper`
+                    : `https://egodao.org/whitepaper`
+                }
+                className="headerMenuDiv_cont_body_link1"
+              >
                 White paper
+              </a>
+              <a
+                href={
+                  window.location.protocol === "http:"
+                    ? `http://faucet.localhost:${window.location.port}/`
+                    : `https://faucet.egodao.org/`
+                }
+                className="headerMenuDiv_cont_body_link1"
+                target="_blank"
+              >
+                {" "}
+                Faucet
+                <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
               <a
                 href="https://egodao.org/"

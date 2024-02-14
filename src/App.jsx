@@ -10,8 +10,18 @@ import Egax from "./Components/Home/Egax";
 import Privacy from "./Components/PrivacyPolicy/Privacy";
 import TermsAndConditions from "./Components/PrivacyPolicy/TermsAndConditions";
 import WhitePaper from "./Components/Home/WhitePaper/WhitePaper";
+import Faucet from "./Components/Faucet/Faucet";
 
 function App() {
+  if (window.location.host.split(".")[0] === "faucet") {
+    return (
+      <>
+        <Header />
+        <Faucet />
+        <Footer />
+      </>
+    );
+  }
   return (
     <div className="App">
       <Header />

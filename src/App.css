@@ -80,6 +80,12 @@ button:focus {
   margin: 0 auto;
   padding: 0 15px;
 }
+.container_fluid {
+  width: auto;
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 .custom2_container {
   width: auto;
   max-width: 1160px;

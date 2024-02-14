@@ -86,13 +86,21 @@ const Footer = () => {
                 <div className="footerDiv1_area2_title">Eco-System</div>
                 <div className="footerDiv1_area2_title_subLinks_div">
                   <a
-                    href="/egax/coin/info"
+                    href={
+                      window.location.protocol === "http:"
+                        ? `http://localhost:${window.location.port}/egax/coin/info`
+                        : `https://egodao.org/egax/coin/info`
+                    }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
                     EGAX Coin
                   </a>
                   <a
-                    href="/egc/coin/info"
+                    href={
+                      window.location.protocol === "http:"
+                        ? `http://localhost:${window.location.port}/egc/coin/info`
+                        : `https://egodao.org/egc/coin/info`
+                    }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
                     EGC Coin
@@ -113,31 +121,59 @@ const Footer = () => {
                     Stake
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
+                  <a
+                    href={
+                      window.location.protocol === "http:"
+                        ? `http://faucet.localhost:${window.location.port}/`
+                        : `https://faucet.egodao.org/`
+                    }
+                    className="footerDiv1_area2_title_subLinks_div_link1"
+                    target="_blank"
+                  >
+                    Faucet
+                    <CallMadeIcon className="header_div_area_2_link1_icon" />
+                  </a>
                 </div>
               </div>
               <div className="footerDiv1_area2_cont1">
                 <div className="footerDiv1_area2_title">Docs</div>
                 <div className="footerDiv1_area2_title_subLinks_div">
                   <a
-                    href="/about"
+                    href={
+                      window.location.protocol === "http:"
+                        ? `http://localhost:${window.location.port}/about`
+                        : `https://egodao.org/about`
+                    }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
                     About
                   </a>
                   <a
-                    href="/whitepaper"
+                    href={
+                      window.location.protocol === "http:"
+                        ? `http://localhost:${window.location.port}/whitepaper`
+                        : `https://egodao.org/whitepaper`
+                    }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
                     White paper
                   </a>
                   <a
-                    href="/privacy"
+                    href={
+                      window.location.protocol === "http:"
+                        ? `http://localhost:${window.location.port}/privacy`
+                        : `https://egodao.org/privacy`
+                    }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
                     Privacy Policy
                   </a>
                   <a
-                    href="/terms"
+                    href={
+                      window.location.protocol === "http:"
+                        ? `http://localhost:${window.location.port}/terms`
+                        : `https://egodao.org/terms`
+                    }
                     className="footerDiv1_area2_title_subLinks_div_link1"
                   >
                     Terms & conditions
