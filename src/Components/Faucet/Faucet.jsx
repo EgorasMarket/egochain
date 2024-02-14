@@ -58,7 +58,7 @@ const Faucet = () => {
     console.log(e.target.value);
   };
   return (
-    <div className="Home_div">
+    <div className="Home_div_faucet">
       <div className="container">
         <div className="Home_div_area">
           <div className="Home_div_area_head">
