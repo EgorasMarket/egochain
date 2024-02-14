@@ -244,16 +244,29 @@ const Home = () => {
                 </div>
               </div>
               <div className="home_div_section1_area_1_div2">
-                <a href="/egc/coin/info">
-                  <button className="home_div_section1_area_1_div2_btn">
-                    Explore EGC Coin
+                <a
+                  href="https://play.google.com/store/apps/details?id=io.egox.dex&hl=be&gl=US"
+                  target="_blank"
+                >
+                  <button className="header_div_area_2_btn">
+                    Get App{" "}
+                    <img
+                      src="/img/play_store_icon.png"
+                      alt=""
+                      className="header_div_area_2_btn_img"
+                    />
                   </button>
                 </a>
-                <a href="/egax/coin/info">
-                  <button className="home_div_section1_area_1_div2_btn2">
-                    Explore EGAX Coin
-                  </button>
-                </a>
+                <button className="header_div_area_2_btn2">
+                  <div className="header_div_area_2_btn2_div">
+                    Get App <span>coming soon</span>
+                  </div>
+                  <img
+                    src="/img/apple_store_icon.webp"
+                    alt=""
+                    className="header_div_area_2_btn2_img"
+                  />
+                </button>
               </div>
             </div>
             <div className="home_div_section1_area_2">

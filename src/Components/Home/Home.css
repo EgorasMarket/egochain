@@ -56,6 +56,10 @@
   justify-content: center;
   margin-top: 3em;
 }
+.home_div_section1_area_1_div2 .header_div_area_2_btn {
+  margin-left: 0;
+}
+
 .home_div_section1_area_1_div2_btn {
   padding: 15px;
   border-radius: 50px;
@@ -819,6 +823,10 @@ p {
   .home_div_section1_area_1_div2 {
     margin-top: 1em;
     flex-direction: column;
+  }
+  .home_div_section1_area_1_div2 .header_div_area_2_btn2 {
+    margin-left: 0;
+    margin-top: 1em;
   }
   .home_div_section1_area_1_div2_btn2 {
     margin-left: 0em;
