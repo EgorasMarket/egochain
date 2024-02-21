@@ -244,7 +244,17 @@ const Home = () => {
                 </div>
               </div>
               <div className="home_div_section1_area_1_div2">
-                <a
+                <a href="https://egoscan.io/" target="_blank">
+                  <button className="home_div_section1_area_1_div2_btn">
+                    Explorer
+                  </button>
+                </a>
+                <a href="https://egoswap.io" target="_blank">
+                  <button className="home_div_section1_area_1_div2_btn2">
+                    Get EGAX
+                  </button>
+                </a>
+                {/* <a
                   href="https://play.google.com/store/apps/details?id=io.egox.dex&hl=be&gl=US"
                   target="_blank"
                 >
@@ -256,8 +266,8 @@ const Home = () => {
                       className="header_div_area_2_btn_img"
                     />
                   </button>
-                </a>
-                <button className="header_div_area_2_btn2">
+                </a> */}
+                {/* <button className="header_div_area_2_btn2">
                   <div className="header_div_area_2_btn2_div">
                     Get App <span>coming soon</span>
                   </div>
@@ -266,7 +276,7 @@ const Home = () => {
                     alt=""
                     className="header_div_area_2_btn2_img"
                   />
-                </button>
+                </button> */}
               </div>
             </div>
             <div className="home_div_section1_area_2">
@@ -1136,7 +1146,7 @@ const Home = () => {
               </div>
               <div className="home_div_section6_area_1_text">
                 Be the first to know about the latest updates and launches.
-                <div className="home_div_section6_area_1_text_div">
+                {/* <div className="home_div_section6_area_1_text_div">
                   {" "}
                   <a
                     href="https://play.google.com/store/apps/details?id=io.egox.dex&hl=be&gl=US"
@@ -1161,7 +1171,7 @@ const Home = () => {
                       className="header_div_area_2_btn2_img"
                     />
                   </button>
-                </div>
+                </div> */}
               </div>
 
               <div className="home_div_section6_area_1_input_div">

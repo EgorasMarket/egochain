@@ -110,15 +110,23 @@ const Footer = () => {
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
                   >
-                    Developer
+                    Developers
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                   <a
-                    href="https://egodao.org/"
+                    href="https://egoswap.io"
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
                   >
-                    Stake
+                    Egoswap
+                    <CallMadeIcon className="header_div_area_2_link1_icon" />
+                  </a>
+                  <a
+                    href="https://egoscan.io/"
+                    className="footerDiv1_area2_title_subLinks_div_link1"
+                    target="_blank"
+                  >
+                    Explorer
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                   <a

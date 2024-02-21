@@ -5,6 +5,9 @@ import CallMadeIcon from "@mui/icons-material/CallMade";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import InfoIcon from "@mui/icons-material/Info";
 import DescriptionIcon from "@mui/icons-material/Description";
+import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
+import JoinLeftIcon from "@mui/icons-material/JoinLeft";
+import WaterDropIcon from "@mui/icons-material/WaterDrop";
 import "./header.css";
 const Header = () => {
   const [headerMenu, setHeaderMenu] = useState(false);
@@ -13,7 +16,7 @@ const Header = () => {
   };
   return (
     <div className="header_div">
-      <div className="container_fluid">
+      <div className="container">
         <div className="header_div_area">
           <a href="/" className="header_div_area_1">
             <img
@@ -24,16 +27,8 @@ const Header = () => {
             Egochain
           </a>
           <div className="header_div_area_2">
-            <a
-              href="https://github.com/EgorasMarket"
-              className="header_div_area_2_link1"
-              target="_blank"
-            >
-              Developer
-              <CallMadeIcon className="header_div_area_2_link1_icon" />
-            </a>
             <div className="header_div_area_2_div">
-              Learn{" "}
+              Resources{" "}
               <KeyboardArrowDownIcon className="header_div_area_2_div_icon" />
               <div className="header_div_area_2_div_drop">
                 <a
@@ -90,50 +85,52 @@ const Header = () => {
                 </a>
               </div>
             </div>
-
             <a
-              href={
-                window.location.protocol === "http:"
-                  ? `http://faucet.localhost:${window.location.port}/`
-                  : `https://faucet.egochain.org/`
-              }
+              href="https://github.com/EgorasMarket"
               className="header_div_area_2_link1"
               target="_blank"
             >
-              Faucet
+              Developers
               <CallMadeIcon className="header_div_area_2_link1_icon" />
             </a>
-            <a
-              href="https://egodao.org/"
-              className="header_div_area_2_link1"
-              target="_blank"
-            >
-              Stake
-              <CallMadeIcon className="header_div_area_2_link1_icon" />
-            </a>
-            <a
-              href="https://play.google.com/store/apps/details?id=io.egox.dex&hl=be&gl=US"
-              target="_blank"
-            >
-              <button className="header_div_area_2_btn">
-                Get App{" "}
-                <img
-                  src="/img/play_store_icon.png"
-                  alt=""
-                  className="header_div_area_2_btn_img"
-                />
-              </button>
-            </a>
-            <button className="header_div_area_2_btn2">
-              <div className="header_div_area_2_btn2_div">
-                Get App <span>coming soon</span>
+            <div className="header_div_area_2_div">
+              Products{" "}
+              <KeyboardArrowDownIcon className="header_div_area_2_div_icon" />
+              <div className="header_div_area_2_div_drop">
+                <a
+                  href="https://egoswap.io"
+                  className="header_div_area_2_link1"
+                  target="_blank"
+                >
+                  <JoinLeftIcon className="header_div_area_2_link1_icon" />{" "}
+                  Egoswap{" "}
+                  <CallMadeIcon className="header_div_area_2_link1_icon" />
+                </a>
+                <a
+                  href="https://egoscan.io/"
+                  className="header_div_area_2_link1"
+                  target="_blank"
+                >
+                  <DocumentScannerIcon className="header_div_area_2_link1_icon" />{" "}
+                  Explorer{" "}
+                  <CallMadeIcon className="header_div_area_2_link1_icon" />
+                </a>
+                <a
+                  href={
+                    window.location.protocol === "http:"
+                      ? `http://faucet.localhost:${window.location.port}/`
+                      : `https://faucet.egochain.org/`
+                  }
+                  target="_blank"
+                  className="header_div_area_2_link1"
+                >
+                  <WaterDropIcon className="header_div_area_2_link1_icon" />{" "}
+                  Faucet{" "}
+                  <CallMadeIcon className="header_div_area_2_link1_icon" />
+                </a>
               </div>
-              <img
-                src="/img/apple_store_icon.webp"
-                alt=""
-                className="header_div_area_2_btn2_img"
-              />
-            </button>
+            </div>
+
             <MenuIcon
               className="header_div_area_2_menu_icon"
               onClick={ToggleHeaderMenu}
@@ -214,6 +211,24 @@ const Header = () => {
                 <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
               <a
+                href="https://egoswap.io"
+                className="headerMenuDiv_cont_body_link1"
+                target="_blank"
+              >
+                {" "}
+                Egoswap
+                <CallMadeIcon className="header_div_area_2_link1_icon" />
+              </a>
+              <a
+                href="https://egoscan.io/"
+                className="headerMenuDiv_cont_body_link1"
+                target="_blank"
+              >
+                {" "}
+                Explorer
+                <CallMadeIcon className="header_div_area_2_link1_icon" />
+              </a>
+              <a
                 href="https://egodao.org/"
                 className="headerMenuDiv_cont_body_link1"
                 target="_blank"
@@ -222,7 +237,7 @@ const Header = () => {
                 Stake
                 <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
-              <div className="headerMenuDiv_cont_body_div">
+              {/* <div className="headerMenuDiv_cont_body_div">
                 <a
                   href="https://play.google.com/store/apps/details?id=io.egox.dex&hl=be&gl=US"
                   target="_blank"
@@ -246,7 +261,7 @@ const Header = () => {
                     className="header_div_area_2_btn2_img"
                   />
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
