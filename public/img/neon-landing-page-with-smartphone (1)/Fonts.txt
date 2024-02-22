@@ -1,9 +1,0 @@
-Fonts used in this design:
-
-Font: Poppins
-Author: Indian Type Foundry
-Url: https://www.fontsquirrel.com/fonts/poppins
-
-Font: Barlow
-Author: Tribby
-Url: https://www.fontsquirrel.com/fonts/barlow
