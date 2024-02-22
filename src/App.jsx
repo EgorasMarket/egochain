@@ -11,6 +11,7 @@ import Privacy from "./Components/PrivacyPolicy/Privacy";
 import TermsAndConditions from "./Components/PrivacyPolicy/TermsAndConditions";
 import WhitePaper from "./Components/Home/WhitePaper/WhitePaper";
 import Faucet from "./Components/Faucet/Faucet";
+import Wallet from "./Components/Wallet/Wallet";
 
 function App() {
   if (window.location.host.split(".")[0] === "faucet") {
@@ -27,6 +28,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/wallet" element={<Wallet />} />
         <Route path="/privacy" element={<Privacy />} />
         <Route path="/whitepaper" element={<WhitePaper />} />
         <Route path="/terms" element={<TermsAndConditions />} />

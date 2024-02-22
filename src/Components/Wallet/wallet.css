@@ -1,0 +1,71 @@
+.wallet_div_section1 {
+  position: relative;
+  padding: 6em 0em;
+  padding-top: 8em;
+  overflow: hidden;
+}
+.wallet_div_section1_area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+.wallet_div_section1_area_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2em;
+}
+.wallet_div_section1_area_1_title {
+  font-size: 72px;
+  color: #fff;
+  line-height: 1.1;
+  font-weight: 600;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.wallet_div_section1_area_1_para {
+  font-size: 28px;
+  color: #a7b4ae;
+  margin-top: 1em;
+  font-weight: 300;
+}
+.wallet_div_section1_area_1_btn_divs {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+}
+
+.wallet_div_section1_area_1_btn_divs .header_div_area_2_btn {
+  margin-left: 0;
+}
+/* .wallet_div_section2 {
+  width: 85%;
+} */
+.wallet_div_section2_img {
+  width: 100%;
+}
+.wallet_div_section1_area_1_title_span {
+  color: #27bf74;
+}
+.wallet_div_section2 {
+  width: 100%;
+}
+.wallet_div_section2
+  svg.-mt-5.h-auto.w-full.max-w-\[535px\].self-center.tablet\:-mt-5 {
+  width: 100%;
+}
+.home_div_section4_area_body_cont1_img_div_img {
+  width: 95%;
+}
+.home_div_section6_area_1 .wallet_div_section1_area_1_btn_divs {
+  margin-top: -2em;
+}
+.home_div_section6_area_2_wallet {
+  width: 100%;
+  /* margin-left: 2em; */
+}
+.home_div_section6_area_2_wallet_img {
+  width: 100%;
+}

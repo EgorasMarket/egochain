@@ -104,7 +104,7 @@ const Header = () => {
                 >
                   <JoinLeftIcon className="header_div_area_2_link1_icon" />{" "}
                   Egoswap{" "}
-                  <CallMadeIcon className="header_div_area_2_link1_icon" />
+                  <CallMadeIcon className="header_div_area_2_link1_icon2" />
                 </a>
                 <a
                   href="https://egoscan.io/"
@@ -113,7 +113,7 @@ const Header = () => {
                 >
                   <DocumentScannerIcon className="header_div_area_2_link1_icon" />{" "}
                   Explorer{" "}
-                  <CallMadeIcon className="header_div_area_2_link1_icon" />
+                  <CallMadeIcon className="header_div_area_2_link1_icon2" />
                 </a>
                 <a
                   href={
@@ -126,7 +126,7 @@ const Header = () => {
                 >
                   <WaterDropIcon className="header_div_area_2_link1_icon" />{" "}
                   Faucet{" "}
-                  <CallMadeIcon className="header_div_area_2_link1_icon" />
+                  <CallMadeIcon className="header_div_area_2_link1_icon2" />
                 </a>
               </div>
             </div>

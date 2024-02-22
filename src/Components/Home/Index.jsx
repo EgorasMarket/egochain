@@ -231,10 +231,10 @@ const Home = () => {
               <div className="home_div_section1_area_1_div1">
                 <div className="home_div_section1_area_1_div1_txt1">
                   <span className="home_div_section1_area_1_div1_txt1_span">
-                    Operating Systems
-                    <br /> For Next-Generation
+                    Layer 1 Blockchain
+                    <br /> designed for
                   </span>
-                  Electric Vehicles.
+                  real-world businesses
                 </div>
                 <div className="home_div_section1_area_1_div1_txt2">
                   Seamlessly create decentralized applications on Egochain, a
