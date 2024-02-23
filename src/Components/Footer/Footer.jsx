@@ -114,19 +114,30 @@ const Footer = () => {
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                   <a
-                    href="https://egoswap.io"
-                    className="footerDiv1_area2_title_subLinks_div_link1"
-                    target="_blank"
-                  >
-                    Egoswap
-                    <CallMadeIcon className="header_div_area_2_link1_icon" />
-                  </a>
-                  <a
                     href="https://egoscan.io/"
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
                   >
                     Explorer
+                    <CallMadeIcon className="header_div_area_2_link1_icon" />
+                  </a>
+                </div>
+              </div>
+              <div className="footerDiv1_area2_cont1">
+                <div className="footerDiv1_area2_title">Products</div>
+                <div className="footerDiv1_area2_title_subLinks_div">
+                  <a
+                    href="/wallet"
+                    className="footerDiv1_area2_title_subLinks_div_link1"
+                  >
+                    Ego Wallet
+                  </a>
+                  <a
+                    href="https://egoswap.io"
+                    className="footerDiv1_area2_title_subLinks_div_link1"
+                    target="_blank"
+                  >
+                    Egoswap
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                   <a
@@ -188,7 +199,7 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-              <div className="footerDiv1_area2_cont1">
+              <div className="footerDiv1_area2_cont1_last">
                 <div className="footerDiv1_area2_title">Need Help?</div>
                 <div className="footerDiv1_area2_title_subLinks_div">
                   <a

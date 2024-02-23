@@ -110,6 +110,12 @@
   align-items: baseline;
   margin-right: 2em;
 }
+.footerDiv1_area2_cont1_last {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-right: 0em;
+}
 
 .footerDiv1_area2_title {
   font-weight: 600;
@@ -152,7 +158,12 @@
 
   .footerDiv1_area2_cont1 {
     flex-direction: column;
+    margin-right: 0px;
+    margin-bottom: 1em;
+  }
 
+  .footerDiv1_area2_cont1_last {
+    flex-direction: column;
     margin-right: 0px;
     margin-bottom: 1em;
   }
