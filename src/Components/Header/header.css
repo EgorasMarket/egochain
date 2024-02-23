@@ -107,7 +107,8 @@
 }
 .header_div_area_2_div_icon {
   margin-left: 2px;
-  font-size: 28px !important;
+  font-size: 24px !important;
+  transition: all 0.3s linear;
 }
 .header_div_area_2_div_drop {
   display: none;
@@ -123,6 +124,10 @@
 }
 .header_div_area_2_div:hover .header_div_area_2_div_drop {
   display: flex;
+}
+.header_div_area_2_div:hover .header_div_area_2_div_icon {
+  transform: rotate(180deg);
+  transition: all 0.3s linear;
 }
 .header_div_area_2_div_drop .header_div_area_2_link1 {
   margin: 0;

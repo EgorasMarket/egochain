@@ -17,14 +17,15 @@ const Wallet = () => {
                 <br />
                 Your{" "}
                 <span className="wallet_div_section1_area_1_title_span">
-                  Web3
+                  Gateway
                 </span>{" "}
                 <br />
-                entry point
+                To Web3
               </div>
               <div className="wallet_div_section1_area_1_para">
-                The most powerful tool for managing your assets and exploring
-                Web3
+                Unleash the full potential of your cryptocurrency assets and
+                delve into the innovative Web3 landscape on Egochain. Start your
+                journey today!
               </div>
               <div className="wallet_div_section1_area_1_btn_divs">
                 {" "}
@@ -54,7 +55,12 @@ const Wallet = () => {
               </div>
             </div>
             <div className="wallet_div_section2">
-              <WalletDummyImg />
+              {/* <WalletDummyImg /> */}
+              <img
+                src="/img/wallet_hero_img_dummy.png"
+                alt=""
+                className="wallet_div_section2_img"
+              />
             </div>
           </div>
         </div>
@@ -498,19 +504,14 @@ const Wallet = () => {
       {/* ====== */}
       {/* ====== */}
       {/* ====== */}
-      <section className="home_div_section6">
+      <section className="wallet_div_section_last">
         <div className="container">
-          <div className="home_div_section6_area">
-            <div className="home_div_section6_area_1">
-              <div className="home_div_section6_area_1_title">
-                Stay up to date
+          <div className="wallet_div_section_last_area">
+            <div className="wallet_div_section_last_area_1">
+              <div className="wallet_div_section_last_area_1_title">
+                Be the first to know about the latest updates and launches
               </div>
-              <div className="home_div_section6_area_1_text">
-                Be the first to know about the latest updates and launches.
-              </div>
-
-              <div className="wallet_div_section1_area_1_btn_divs">
-                {" "}
+              <div className="wallet_div_section_last_area_1_btns">
                 <a
                   href="https://play.google.com/store/apps/details?id=io.egox.dex&hl=be&gl=US"
                   target="_blank"
@@ -536,11 +537,11 @@ const Wallet = () => {
                 </button>
               </div>
             </div>
-            <div className="home_div_section6_area_2_wallet">
+            <div className="wallet_div_section_last_area_2">
               <img
-                src="/img/last_dummy_wallet_img.svg"
+                src="/img/wallet_last_section_img.png"
                 alt=""
-                className="home_div_section6_area_2_wallet_img"
+                className="wallet_div_section_last_area_2_img"
               />
             </div>
           </div>
