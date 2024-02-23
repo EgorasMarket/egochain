@@ -231,10 +231,10 @@ const Home = () => {
               <div className="home_div_section1_area_1_div1">
                 <div className="home_div_section1_area_1_div1_txt1">
                   <span className="home_div_section1_area_1_div1_txt1_span">
-                    Layer 1 Blockchain
-                    <br /> designed for
+                    Powering the Future,
+                    <br /> A High-Performance
                   </span>
-                  real-world businesses
+                  Parallel Blockchain
                 </div>
                 <div className="home_div_section1_area_1_div1_txt2">
                   Seamlessly create decentralized applications on Egochain, a

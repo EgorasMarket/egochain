@@ -85,6 +85,10 @@ const Header = () => {
                 </a>
               </div>
             </div>
+
+            <a href="/wallet" className="header_div_area_2_link1">
+              Ego Wallet
+            </a>
             <a
               href="https://github.com/EgorasMarket"
               className="header_div_area_2_link1"
@@ -148,14 +152,8 @@ const Header = () => {
               />
             </div>
             <div className="headerMenuDiv_cont_body">
-              <a
-                href="https://github.com/EgorasMarket"
-                target="_blank"
-                className="headerMenuDiv_cont_body_link1"
-              >
-                {" "}
-                Developer
-                <CallMadeIcon className="header_div_area_2_link1_icon" />
+              <a href="/wallet" className="headerMenuDiv_cont_body_link1">
+                Ego Wallet
               </a>
               <a
                 href={
@@ -208,6 +206,15 @@ const Header = () => {
               >
                 {" "}
                 Faucet
+                <CallMadeIcon className="header_div_area_2_link1_icon" />
+              </a>
+              <a
+                href="https://github.com/EgorasMarket"
+                target="_blank"
+                className="headerMenuDiv_cont_body_link1"
+              >
+                {" "}
+                Developer
                 <CallMadeIcon className="header_div_area_2_link1_icon" />
               </a>
               <a

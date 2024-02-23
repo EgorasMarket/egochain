@@ -116,3 +116,34 @@
 .wallet_div_section_last_area_2_img {
   width: 70%;
 }
+@media screen and (max-width: 999px) {
+  .wallet_div_section1_area {
+    flex-direction: column;
+  }
+  .wallet_div_section1_area_1 {
+    margin-right: 0em;
+    margin-bottom: 2em;
+  }
+  .wallet_div_section_last_area_2_img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .wallet_div_section1_area_1_title {
+    font-size: 50px;
+  }
+  .wallet_div_section1_area_1_para {
+    font-size: 18px;
+  }
+  .wallet_div_section_last_area_1_title {
+    font-size: 28px;
+    width: 100%;
+  }
+  .wallet_div_section1 {
+    padding: 4em 0em;
+    padding-top: 8em;
+  }
+  .wallet_div_section_last_area_2 {
+    margin-top: -1em;
+  }
+}

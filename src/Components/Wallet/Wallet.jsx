@@ -96,16 +96,16 @@ const Wallet = () => {
             <div className="home_div_section3_area_body">
               <div className="home_div_section3_area_body_cont1">
                 <div className="home_div_section3_area_body_cont1_title">
-                  Secure Network
+                  Security
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Powered by EGAX's Secure Network
+                    Uncompromising Security
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Node validators actively safeguard the EGOCHAIN by securing
-                    consensus, earning EGAX tokens as their well-deserved
-                    reward.
+                    Egochain safeguards your wallet without ever touching your
+                    private keys or secret phrase. You, and only you, control
+                    your assets.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">
@@ -171,16 +171,15 @@ const Wallet = () => {
               </div>
               <div className="home_div_section3_area_body_cont1">
                 <div className="home_div_section3_area_body_cont1_title">
-                  Unleashing
+                  Effortless
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Unleashing Interoperability
+                    Effortless Exchange Deposits
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Powered by the robust Cosmos SDK, Egochain seamlessly
-                    connects to the vibrant Cosmos ecosystem (20+ chains, $40B+)
-                    through the IBC protocol.
+                    Ditch the complexities. Deposit crypto directly from
+                    exchanges like MEXC with just a few clicks.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">
@@ -246,17 +245,16 @@ const Wallet = () => {
               </div>
               <div className="home_div_section3_area_body_cont1">
                 <div className="home_div_section3_area_body_cont1_title">
-                  Unleash
+                  Experience
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Unleash the Full Potential of Solidity
+                    Intuitive Mobile Experience
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Egochain's EVM compatibility empowers developers to leverage
-                    the familiar Solidity language and existing dApps, while
-                    reaping the benefits of Egochain's superior scalability and
-                    security.
+                    Navigate your Web3 journey with ease. Our user-friendly
+                    mobile app empowers you with powerful tools for seamless
+                    crypto management.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">
@@ -322,17 +320,17 @@ const Wallet = () => {
               </div>
               <div className="home_div_section3_area_body_cont1">
                 <div className="home_div_section3_area_body_cont1_title">
-                  Transactions
+                  Data
                 </div>
                 <div className="home_div_section3_area_body_cont1_body_text">
                   <div className="home_div_section3_area_body_cont1_body_text_title">
-                    Transactions by the Millions
+                    Data Sovereignty
                   </div>
                   <div className="home_div_section3_area_body_cont1_body_text_para">
-                    Tendermint Consensus delivers single-block finality and
-                    unmatched scalability, ensuring Egochain can handle the
-                    demands of thousands of protocols and millions of users –
-                    effortlessly.
+                    Enjoy the peace of mind knowing your data belongs to you.
+                    Egochain generates passwords and keys directly on your
+                    device, giving you complete control over sharing and
+                    privacy.
                   </div>
                 </div>
                 <div className="home_div_section3_area_body_cont1_icon">
@@ -409,7 +407,7 @@ const Wallet = () => {
       {/* ====== */}
       {/* ====== */}
       {/* ====== */}
-      <section className="home_div_section4">
+      {/* <section className="home_div_section4">
         <div className="container">
           <div className="home_div_section4_area">
             <div className="home_div_section4_area_body">
@@ -500,7 +498,7 @@ const Wallet = () => {
           alt=""
           className="home_div_section1_bg_light4"
         />
-      </section>
+      </section> */}
       {/* ====== */}
       {/* ====== */}
       {/* ====== */}
@@ -509,7 +507,7 @@ const Wallet = () => {
           <div className="wallet_div_section_last_area">
             <div className="wallet_div_section_last_area_1">
               <div className="wallet_div_section_last_area_1_title">
-                Be the first to know about the latest updates and launches
+                Choose Egochain and unlock a world of crypto freedom
               </div>
               <div className="wallet_div_section_last_area_1_btns">
                 <a
