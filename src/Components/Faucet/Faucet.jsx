@@ -47,10 +47,12 @@ const Faucet = () => {
       }
     } catch (err) {
       console.log(err.response);
-      setErrorTxt(err.response);
+      console.log(err.response.data.errorMessage);
+      setErrorTxt(err.response.data.errorMessage);
       setSuccessModal(false);
       setErrorModal(true);
       setLoading(false);
+      setDisabled(false);
     }
   };
   const changeWalletAddress = (e) => {
