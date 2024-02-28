@@ -135,12 +135,22 @@
   padding: 6em 0em;
   position: relative;
   padding-top: 10em;
-  /* overflow: hidden; */
+  overflow: hidden;
+}
+.egox_token_div_section3b {
+  background: #000;
+  background-image: radial-gradient(#3cd19929, #000);
+  color: #fff;
+  padding: 6em 0em;
+  position: relative;
+  padding-top: 10em;
+  overflow: hidden;
 }
 .egox_token_div_section3_area {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  position: relative;
+  z-index: 2;
 }
 .egox_token_div_section3_area_title {
   display: flex;
@@ -148,6 +158,14 @@
   margin-bottom: 2em;
   font-size: 48px;
   font-weight: 700;
+}
+.egox_token_div_section3_area_titleb {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  font-size: 68px;
+  font-weight: 700;
+  text-align: center;
 }
 .egox_token_div_section3_area_title_para {
   color: #abd0c1;
@@ -173,6 +191,85 @@
   width: 100%;
   opacity: 0.2;
 }
+/* ============ */
+/* ============ */
+/* ============ */
+
+.egox_token_div_section3_area_body svg tspan {
+  fill: #fff;
+}
+.egox_token_div_section3_area_body svg polyline {
+  stroke: #fff;
+}
+.egox_token_div_section3_area_body svg {
+  height: 600px !important;
+}
+.supply_div {
+  position: absolute;
+  top: auto;
+  bottom: auto;
+  margin: auto;
+  left: auto;
+  right: auto;
+  background: #0b2018;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em;
+  border-radius: 50%;
+}
+
+.distribution_div_area {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: flex-start;
+  gap: 30px;
+}
+.distribution_div_area_cont1 {
+  padding: 2em;
+  background: grey;
+  border-radius: 10px;
+  background: linear-gradient(178deg, #2f4d4b5c, #3449481c);
+  border: solid 1px #0c1c1b;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.distribution_div_area_cont1_title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #99beb6;
+}
+.supply_div_amnt {
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+.supply_div_title {
+  font-size: 14px;
+}
+.distribution_div_area_cont1_body {
+  display: flex;
+  flex-direction: column;
+}
+.distribution_div_area_cont1_body_cont1 {
+  margin-bottom: 10px;
+}
+.mobile_supply_div {
+  display: none;
+}
+/* ============ */
+/* ============ */
+/* ============ */
+/* ============ */
+/* ============ */
+/* ============ */
+/* ============ */
 @media (max-width: 999px) {
   .egox_token_div_section2_area_body {
     flex-direction: column;
@@ -186,8 +283,64 @@
   .egox_token_div_section1area2_img {
     width: 70%;
   }
+  .egox_token_div_section3_area_body svg {
+    height: 350px !important;
+  }
+}
+@media (max-width: 767px) {
+  /* .egox_token_div_section3 {
+    padding: 2em 0em;
+    padding-top: 4em;
+  } */
+  /* .egox_token_div_section3_area_body svg g[aria-label="Public Sale: 0.1%"] {
+    transform: translateX(-38px);
+  } */
+  .egox_token_div_section3_area_body
+    svg
+    g[aria-label="Private & OTC Sales: 9.0%"] {
+    transform: translate3d(-16%, -24%, 0);
+  }
+  .egox_token_div_section3_area_body svg tspan {
+    font-size: 10px;
+  }
+  .egox_token_div_section3_area_body svg {
+    height: 200px !important;
+  }
+  .egox_token_div_section3b {
+    padding: 2em 0em;
+    padding-top: 4em;
+  }
+  .egox_token_div_section3_area_titleb {
+    font-size: 48px;
+  }
+  .distribution_div_area {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .supply_div {
+    display: none;
+  }
+  .mobile_supply_div {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+  }
+  .mobile_supply_div_span {
+    font-size: 16px;
+    margin-top: 3px;
+    font-weight: 500;
+  }
 }
 @media (max-width: 600px) {
+  .egox_token_div_section3_area_titleb {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
   .egox_token_div_section1area1 {
     width: 100%;
     margin-right: 0em;
@@ -236,5 +389,23 @@
   }
   .egox_token_div_section3_area_body_img {
     width: 100%;
+  }
+}
+@media (max-width: 396px) {
+  .egox_token_div_section3_area_body
+    svg
+    g[aria-label="Private & OTC Sales: 9.0%"] {
+    transform: translate3d(-14%, -16%, 0);
+    width: 10px;
+  }
+  .egox_token_div_section3_area_body svg {
+    height: 140px !important;
+  }
+  .egox_token_div_section3_area_body svg tspan {
+    font-size: 8px;
+  }
+  .egox_token_div_section3_area_titleb {
+    font-size: 28px;
+    margin-bottom: 10px;
   }
 }
