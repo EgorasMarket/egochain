@@ -74,7 +74,7 @@ const Egax = () => {
                 />
               </div>
             </div>
-            <div className="egox_token_div_section1area_cont2">
+            {/* <div className="egox_token_div_section1area_cont2">
               <div className="home_div_section1_area_stats_div1">
                 <div className="home_div_section1_area_stats_div1_title">
                   $6.00
@@ -107,7 +107,7 @@ const Egax = () => {
                   Market Cap
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <img
@@ -288,36 +288,11 @@ const Egax = () => {
                   </div> */}
                 </div>
               </div>
+              {/* =========== */}
+              {/* =========== */}
+              {/* =========== */}
+              {/* =========== */}
               <div className="home_div_section4_area_body_cont2a">
-                <div className="home_div_section4_area_body_cont2">
-                  <div className="home_div_section4_area_body_cont2_title">
-                    Token Generation
-                  </div>
-                  <div className="home_div_section4_area_body_cont2_para">
-                    5 EGAX tokens are minted per block, allocated as follows:
-                    <br />
-                    <br />
-                    * 10%: EGC stakers (incentivizing network security)
-                    <br />
-                    <br />
-                    * 70%: Apex EV riders (promoting adoption and engagement)
-                    <br />
-                    <br />* 20%: Validators (rewarding block validation)
-                  </div>
-                  {/* <div className="home_div_section4_area_body_cont2_button_div">
-                    <button className="home_div_section4_area_body_cont2_btn">
-                      Open Docs
-                    </button>
-                  </div> */}
-                </div>
-                <div className="home_div_section4_area_body_cont1_img_div2">
-                  <Icon />
-                </div>
-              </div>
-              <div className="home_div_section4_area_body_cont3">
-                <div className="home_div_section4_area_body_cont1_img_div">
-                  <Icon />
-                </div>
                 <div className="home_div_section4_area_body_cont2">
                   <div className="home_div_section4_area_body_cont2_title">
                     Accessibility and Ease of Use
@@ -330,7 +305,7 @@ const Egax = () => {
                     * Staking-Free Token Claiming: No EGAX staking required to
                     receive earned tokens.
                     <br />
-                    <br /> * Seamless EGAX Claiming : Apex EVs integrate a
+                    <br />* Seamless EGAX Claiming : Apex EVs integrate a
                     built-in claim function for effortless token acquisition.
                   </div>
                   {/* <div className="home_div_section4_area_body_cont2_button_div">
@@ -339,7 +314,14 @@ const Egax = () => {
                     </button>
                   </div> */}
                 </div>
+                <div className="home_div_section4_area_body_cont1_img_div2">
+                  <Icon />
+                </div>
               </div>
+              {/* =========== */}
+              {/* =========== */}
+              {/* =========== */}
+              {/* =========== */}
             </div>
           </div>
         </div>
