@@ -6,8 +6,6 @@ on:
   pull_request:
     branches: [deploy]
 
-    
-
 jobs:
   build:
     runs-on: self-hosted
@@ -22,3 +20,4 @@ jobs:
     # - name: 'Create env file'
     #   run: |
     #       npm run build
+    # tmcmm
