@@ -11,6 +11,7 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import RedditIcon from "@mui/icons-material/Reddit";
 import { motion } from "framer-motion";
+import CountUp from "react-countup";
 
 export const fadeIn = (direction) => {
   return {
@@ -19,6 +20,14 @@ export const fadeIn = (direction) => {
       y: direction === "down" ? -85 : 85,
     },
     visible: { opacity: 1, y: 0 },
+  };
+};
+export const opacity = () => {
+  return {
+    hidden: {
+      opacity: 0,
+    },
+    visible: { opacity: 1 },
   };
 };
 export const fadeHorizontal = (direction) => {
@@ -43,17 +52,24 @@ export const reveal = () => {
 export const scale = () => {
   return {
     hidden: {
-      scale: 0,
-      opacity: 0,
+      scale: 1.5,
+      opacity: 0.5,
     },
-    visible: { scale: 1, opacity: 1 },
+    visible: { scale: 1.2, opacity: 1 },
   };
 };
 
 export const transition = () => {
   return {
     duration: 0.75,
-    delay: 0.2,
+    delay: 0.3,
+    ease: "easeIn",
+  };
+};
+export const transition2 = () => {
+  return {
+    duration: 1.5,
+    delay: 0.3,
     ease: "easeIn",
   };
 };
@@ -273,16 +289,15 @@ const Home = () => {
     <div className="Home_div">
       <section className="home_div_section1">
         <div className="container">
-          <motion.div
-            variants={scale}
-            transition={transition()}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: false }}
-            className="home_div_section1_area"
-          >
-            {" "}
-            <div className="home_div_section1_area_1">
+          <div className="home_div_section1_area">
+            <motion.div
+              variants={opacity()}
+              transition={transition()}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="home_div_section1_area_1"
+            >
               <div className="home_div_section1_area_1_div1">
                 <div className="home_div_section1_area_1_div1_txt1">
                   <span className="home_div_section1_area_1_div1_txt1_span">
@@ -333,14 +348,21 @@ const Home = () => {
                   />
                 </button> */}
               </div>
-            </div>
-            <div className="home_div_section1_area_2">
+            </motion.div>{" "}
+            <motion.div
+              variants={scale()}
+              transition={transition2()}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="home_div_section1_area_2"
+            >
               <Spline
                 scene="https://prod.spline.design/TVLoAomGQBQWA2NS/scene.splinecode"
                 className="home_div_section1_area_2_spline_scene"
               />
-            </div>
-          </motion.div>
+            </motion.div>
+          </div>
         </div>
         <img
           src="/img/hero_bg_light.svg"
@@ -372,7 +394,14 @@ const Home = () => {
             </div>
 
             <div className="home_div_section3_area_body">
-              <div className="home_div_section3_area_body_cont1">
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
                 <div className="home_div_section3_area_body_cont1_title">
                   Secure Network
                 </div>
@@ -446,8 +475,20 @@ const Home = () => {
                     ></path>
                   </svg>
                 </div>
-              </div>
-              <div className="home_div_section3_area_body_cont1">
+              </motion.div>
+
+              {/* =========== */}
+              {/* =========== */}
+              {/* =========== */}
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
+                {" "}
                 <div className="home_div_section3_area_body_cont1_title">
                   Unleashing
                 </div>
@@ -521,8 +562,19 @@ const Home = () => {
                     ></path>
                   </svg>
                 </div>
-              </div>
-              <div className="home_div_section3_area_body_cont1">
+              </motion.div>
+
+              {/* ========= */}
+              {/* ========= */}
+              {/* ========= */}
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
                 <div className="home_div_section3_area_body_cont1_title">
                   Unleash
                 </div>
@@ -597,8 +649,19 @@ const Home = () => {
                     ></path>
                   </svg>
                 </div>
-              </div>
-              <div className="home_div_section3_area_body_cont1">
+              </motion.div>
+
+              {/* ======== */}
+              {/* ======== */}
+              {/* ======== */}
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section3_area_body_cont1"
+              >
                 <div className="home_div_section3_area_body_cont1_title">
                   Transactions
                 </div>
@@ -673,7 +736,7 @@ const Home = () => {
                     ></path>
                   </svg>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -694,7 +757,15 @@ const Home = () => {
               The most adopted scaling technology
             </div>
             <div className="home_div_section4_area_body">
-              <div className="home_div_section4_area_body_cont">
+              {/* =========== */}
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section4_area_body_cont"
+              >
                 <div className="home_div_section4_area_body_cont1_img_div">
                   <Icon />
                 </div>
@@ -715,8 +786,20 @@ const Home = () => {
                     </button>
                   </div>
                 </div>
-              </div>
-              <div className="home_div_section4_area_body_cont2a">
+              </motion.div>
+
+              {/* ========== */}
+              {/* ========== */}
+              {/* ========== */}
+              {/* ========== */}
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section4_area_body_cont2a"
+              >
                 <div className="home_div_section4_area_body_cont2">
                   <div className="home_div_section4_area_body_cont2_title">
                     The Blockchain Paving the Way for Real-World Adoption
@@ -737,8 +820,18 @@ const Home = () => {
                 <div className="home_div_section4_area_body_cont1_img_div2">
                   <Icon />
                 </div>
-              </div>
-              <div className="home_div_section4_area_body_cont3">
+              </motion.div>
+              {/* ============ */}
+              {/* ============ */}
+              {/* ============ */}
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="home_div_section4_area_body_cont3"
+              >
                 <div className="home_div_section4_area_body_cont1_img_div">
                   <Icon />
                 </div>
@@ -758,7 +851,7 @@ const Home = () => {
                     </button>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -774,7 +867,14 @@ const Home = () => {
       {/* ====== */}
       <section className="home_div_section2">
         <div className="container">
-          <div className="ego_chain_stat_section_area">
+          <motion.div
+            variants={fadeIn("Up")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="ego_chain_stat_section_area"
+          >
             <div className="home_div_section3_area_title">
               The Blockchain Built for Real-World Businesses
             </div>
@@ -795,7 +895,15 @@ const Home = () => {
 
                   <div className="ego_chain_stat_section_body_1_cont2_div2">
                     <div className="ego_chain_stat_section_body_1_cont2_div2_cont1">
-                      99%
+                      <CountUp
+                        start={0}
+                        end={99}
+                        duration={2.75}
+                        scrollSpyDelay={10}
+                        enableScrollSpy={true}
+                        scrollSpyOnce={false}
+                      />
+                      %
                     </div>
                     <div className="ego_chain_stat_section_body_1_cont2_div2_cont2">
                       lower <br />
@@ -835,7 +943,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
         <img src="/img/grains_bottom.png" alt="" className="grains_ellipse" />
         <img
@@ -927,9 +1035,14 @@ const Home = () => {
             <div className="home_div_section5_area_title">Wallets</div>
             <div className="home_div_section5_area_body_cont">
               {wallets.map((data) => (
-                <div
-                  className="home_div_section5_area_body_cont_div1"
+                <motion.div
                   id={data.id}
+                  variants={fadeIn("Up")}
+                  transition={transition()}
+                  initial="hidden"
+                  whileInView="visible"
+                  viewport={{ once: false }}
+                  className="home_div_section5_area_body_cont_div1"
                 >
                   <div className="home_div_section5_area_body_cont_div1_img_div">
                     <img
@@ -947,7 +1060,7 @@ const Home = () => {
                   <div className="home_div_section5_area_body_cont_div1_last_txt">
                     WALLETS
                   </div>
-                </div>
+                </motion.div>
               ))}
             </div>
           </div>
@@ -1080,7 +1193,14 @@ const Home = () => {
       {/* ====== */}
       <section className="home_div_section6">
         <div className="container">
-          <div className="home_div_section6_area_community">
+          <motion.div
+            variants={fadeIn("Up")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="home_div_section6_area_community"
+          >
             <div className="home_div_section6_area_community_2">
               <div className="home_div_section6_area_community_2_title">
                 Join the Egochain commnity
@@ -1193,8 +1313,17 @@ const Home = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="home_div_section6_area">
+          </motion.div>
+
+          <motion.div
+            variants={fadeIn("Up")}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="home_div_section6_area"
+          >
+            {" "}
             <div className="home_div_section6_area_1">
               <div className="home_div_section6_area_1_title">
                 Stay up to date
@@ -1249,7 +1378,7 @@ const Home = () => {
                 className="home_div_section1_area_2_spline_scene2"
               />
             </div>
-          </div>
+          </motion.div>
         </div>
 
         <img

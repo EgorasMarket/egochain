@@ -8,7 +8,70 @@ import DescriptionIcon from "@mui/icons-material/Description";
 import DocumentScannerIcon from "@mui/icons-material/DocumentScanner";
 import JoinLeftIcon from "@mui/icons-material/JoinLeft";
 import WaterDropIcon from "@mui/icons-material/WaterDrop";
+import { motion } from "framer-motion";
 import "./header.css";
+
+export const fadeIn = (direction) => {
+  return {
+    hidden: {
+      opacity: 0,
+      y: direction === "down" ? -85 : 85,
+    },
+    visible: { opacity: 1, y: 0 },
+  };
+};
+export const opacity = () => {
+  return {
+    hidden: {
+      opacity: 0,
+    },
+    visible: { opacity: 1 },
+  };
+};
+export const fadeHorizontal = (direction) => {
+  return {
+    hidden: {
+      opacity: 0,
+      x: direction === "right" ? -85 : 85,
+    },
+    visible: { opacity: 1, y: 0 },
+  };
+};
+
+export const reveal = () => {
+  return {
+    hidden: {
+      left: 0,
+    },
+    visible: { left: "100%" },
+  };
+};
+
+export const scale = () => {
+  return {
+    hidden: {
+      scale: 1.5,
+      opacity: 0.5,
+    },
+    visible: { scale: 1.2, opacity: 1 },
+  };
+};
+
+export const transition = () => {
+  return {
+    duration: 0.35,
+    delay: 0.1,
+    ease: "easeIn",
+  };
+};
+export const transition2 = () => {
+  return {
+    duration: 1.5,
+    delay: 0.3,
+    ease: "easeIn",
+  };
+};
+
 const Header = () => {
   const [headerMenu, setHeaderMenu] = useState(false);
   const ToggleHeaderMenu = () => {
@@ -30,7 +93,15 @@ const Header = () => {
             <div className="header_div_area_2_div">
               Resources{" "}
               <KeyboardArrowDownIcon className="header_div_area_2_div_icon" />
-              <div className="header_div_area_2_div_drop">
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="header_div_area_2_div_drop"
+              >
+                {" "}
                 <a
                   href={
                     window.location.protocol === "http:"
@@ -61,7 +132,6 @@ const Header = () => {
                   />{" "}
                   EGC Coin
                 </a>
-
                 <a
                   href={
                     window.location.protocol === "http:"
@@ -83,7 +153,8 @@ const Header = () => {
                   <DescriptionIcon className="header_div_area_2_link1_icon" />{" "}
                   Whitepaper
                 </a>
-              </div>
+              </motion.div>
+              {/* <div className="header_div_area_2_div_drop"></div> */}
             </div>
 
             <a href="/wallet" className="header_div_area_2_link1">
@@ -100,7 +171,14 @@ const Header = () => {
             <div className="header_div_area_2_div">
               Products{" "}
               <KeyboardArrowDownIcon className="header_div_area_2_div_icon" />
-              <div className="header_div_area_2_div_drop">
+              <motion.div
+                variants={fadeIn("Up")}
+                transition={transition()}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: false }}
+                className="header_div_area_2_div_drop"
+              >
                 <a
                   href="https://egoswap.io"
                   className="header_div_area_2_link1"
@@ -132,7 +210,7 @@ const Header = () => {
                   Faucet{" "}
                   <CallMadeIcon className="header_div_area_2_link1_icon2" />
                 </a>
-              </div>
+              </motion.div>
             </div>
 
             <MenuIcon
