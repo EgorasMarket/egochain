@@ -75,6 +75,9 @@ export const transition2 = () => {
 };
 
 const Home = () => {
+  // console.log('====================================');
+  // console.log("jfjf");
+  // console.log('====================================');
   const wallets = [
     {
       id: "1",
