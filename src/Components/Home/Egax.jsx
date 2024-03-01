@@ -44,7 +44,7 @@ const config = {
       percentage: 10,
     },
     {
-      category: "Airdrop",
+      category: "Community Reward",
       percentage: 0.95,
     },
   ],

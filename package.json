@@ -17,6 +17,7 @@
     "@splinetool/react-spline": "^2.2.6",
     "@szhsin/react-accordion": "^1.2.3",
     "axios": "^1.6.7",
+    "framer-motion": "^10.16.12",
     "lottie-react": "^2.4.0",
     "react": "^18.2.0",
     "react-amcharts4": "^0.0.4",

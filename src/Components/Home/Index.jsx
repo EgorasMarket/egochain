@@ -10,6 +10,53 @@ import TelegramIcon from "@mui/icons-material/Telegram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import RedditIcon from "@mui/icons-material/Reddit";
+import { motion } from "framer-motion";
+
+export const fadeIn = (direction) => {
+  return {
+    hidden: {
+      opacity: 0,
+      y: direction === "down" ? -85 : 85,
+    },
+    visible: { opacity: 1, y: 0 },
+  };
+};
+export const fadeHorizontal = (direction) => {
+  return {
+    hidden: {
+      opacity: 0,
+      x: direction === "right" ? -85 : 85,
+    },
+    visible: { opacity: 1, y: 0 },
+  };
+};
+
+export const reveal = () => {
+  return {
+    hidden: {
+      left: 0,
+    },
+    visible: { left: "100%" },
+  };
+};
+
+export const scale = () => {
+  return {
+    hidden: {
+      scale: 0,
+      opacity: 0,
+    },
+    visible: { scale: 1, opacity: 1 },
+  };
+};
+
+export const transition = () => {
+  return {
+    duration: 0.75,
+    delay: 0.2,
+    ease: "easeIn",
+  };
+};
 
 const Home = () => {
   const wallets = [
@@ -221,12 +268,20 @@ const Home = () => {
       ),
     },
   ];
-
+  // const item = { hidden: { x: -10, opacity: 0 } };
   return (
     <div className="Home_div">
       <section className="home_div_section1">
         <div className="container">
-          <div className="home_div_section1_area">
+          <motion.div
+            variants={scale}
+            transition={transition()}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false }}
+            className="home_div_section1_area"
+          >
+            {" "}
             <div className="home_div_section1_area_1">
               <div className="home_div_section1_area_1_div1">
                 <div className="home_div_section1_area_1_div1_txt1">
@@ -285,7 +340,7 @@ const Home = () => {
                 className="home_div_section1_area_2_spline_scene"
               />
             </div>
-          </div>
+          </motion.div>
         </div>
         <img
           src="/img/hero_bg_light.svg"
