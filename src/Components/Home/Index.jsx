@@ -307,13 +307,13 @@ const Home = () => {
                     Powering the Future,
                     <br /> A High-Performance
                   </span>
-                  Parallel Blockchain
+                  Blockchain
                 </div>
                 <div className="home_div_section1_area_1_div1_txt2">
                   Seamlessly create decentralized applications on Egochain, a
-                  decentralized blockchain that blends the speed and
-                  interoperability of Cosmos with the developer power of
-                  Ethereum.
+                  decentralized <br />
+                  blockchain that blends the speed and interoperability of
+                  Cosmos with the developer power of Ethereum.
                 </div>
               </div>
               <div className="home_div_section1_area_1_div2">
