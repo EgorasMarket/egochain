@@ -53,9 +53,9 @@ export const scale = () => {
   return {
     hidden: {
       scale: 1.5,
-      opacity: 0.5,
+      opacity: 0.2,
     },
-    visible: { scale: 1.2, opacity: 1 },
+    visible: { scale: 1.2, opacity: 0.8 },
   };
 };
 
@@ -304,16 +304,17 @@ const Home = () => {
               <div className="home_div_section1_area_1_div1">
                 <div className="home_div_section1_area_1_div1_txt1">
                   <span className="home_div_section1_area_1_div1_txt1_span">
-                    Powering the Future,
-                    <br /> A High-Performance
+                    The High-Speed
+                    <br /> Parallel Blockchain for
                   </span>
-                  Blockchain
+                  Electric Vehicles.
                 </div>
                 <div className="home_div_section1_area_1_div1_txt2">
-                  Seamlessly create decentralized applications on Egochain, a
-                  decentralized <br />
-                  blockchain that blends the speed and interoperability of
-                  Cosmos with the developer power of Ethereum.
+                  Egochain is a public, permissionless Layer 1 blockchain
+                  protocol designed to accelerate the global transition to
+                  electric vehicles. It leverages the combined strengths of
+                  Cosmos' high transaction speed and interoperability with
+                  Ethereum's robust developer ecosystem.
                 </div>
               </div>
               <div className="home_div_section1_area_1_div2">
@@ -351,6 +352,14 @@ const Home = () => {
                   />
                 </button> */}
               </div>
+              <div className="backed_by_div">
+                BACKED BY{" "}
+                <img
+                  src="/img/tekedia_logo.svg"
+                  alt=""
+                  className="backed_by_div_img"
+                />
+              </div>
             </motion.div>{" "}
             <motion.div
               variants={scale()}
@@ -384,11 +393,138 @@ const Home = () => {
       {/* ====== */}
       {/* ====== */}
       {/* ====== */}
+      <section className="home_div_section4">
+        <div className="container">
+          <div className="home_div_section4_area">
+            <div className="home_div_section3_area_title">
+              Why Egochain
+              <div className="home_div_section3_area_para">
+                Electric vehicles (EVs) hold potential for sustainable
+                transportation, but face obstacles like high costs, sparse
+                charging infrastructure, and pricey charging. Egochain utilizes
+                blockchain to tackle these hurdles and advance the global EV
+                movement.
+              </div>
+            </div>
+            <div className="home_div_section4_area_body_2">
+              <div className="home_div_section4_area_body_2_cont1">
+                <div className="home_div_section4_area_body_2_cont1_icon">
+                  <svg
+                    data-v-44de1e4b=""
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="crosshair z-2 p-relative"
+                  >
+                    <path d="M15 7.5H0M7.5 15V0" stroke="currentColor"></path>
+                  </svg>
+                </div>
+                <div className="home_div_section4_area_body_2_cont1_txt">
+                  <div className="home_div_section4_area_body_2_cont1_txt_title">
+                    Affordable EV Production
+                  </div>
+                  Egochain's track-and-trace features enable manufacturers to
+                  fight counterfeit parts and prevent diversion in their supply
+                  chains. This ensures product quality, reduces waste, and cuts
+                  costs related to fraudulent components, leading to more
+                  affordable electric vehicles (EVs).
+                </div>
+              </div>
+              <div className="home_div_section4_area_body_2_cont1">
+                <div className="home_div_section4_area_body_2_cont1_icon">
+                  <svg
+                    data-v-44de1e4b=""
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="crosshair z-2 p-relative"
+                  >
+                    <path d="M15 7.5H0M7.5 15V0" stroke="currentColor"></path>
+                  </svg>
+                </div>
+                <div className="home_div_section4_area_body_2_cont1_txt">
+                  <div className="home_div_section4_area_body_2_cont1_txt_title">
+                    Affordable EV Production
+                  </div>
+                  Egochain's track-and-trace features enable manufacturers to
+                  fight counterfeit parts and prevent diversion in their supply
+                  chains. This ensures product quality, reduces waste, and cuts
+                  costs related to fraudulent components, leading to more
+                  affordable electric vehicles (EVs).
+                </div>
+              </div>
+              <div className="home_div_section4_area_body_2_cont1">
+                <div className="home_div_section4_area_body_2_cont1_icon">
+                  <svg
+                    data-v-44de1e4b=""
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="crosshair z-2 p-relative"
+                  >
+                    <path d="M15 7.5H0M7.5 15V0" stroke="currentColor"></path>
+                  </svg>
+                </div>
+                <div className="home_div_section4_area_body_2_cont1_txt">
+                  <div className="home_div_section4_area_body_2_cont1_txt_title">
+                    Affordable EV Production
+                  </div>
+                  Egochain's track-and-trace features enable manufacturers to
+                  fight counterfeit parts and prevent diversion in their supply
+                  chains. This ensures product quality, reduces waste, and cuts
+                  costs related to fraudulent components, leading to more
+                  affordable electric vehicles (EVs).
+                </div>
+              </div>
+              <div className="home_div_section4_area_body_2_cont1">
+                <div className="home_div_section4_area_body_2_cont1_icon">
+                  <svg
+                    data-v-44de1e4b=""
+                    width="15"
+                    height="15"
+                    viewBox="0 0 15 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="crosshair z-2 p-relative"
+                  >
+                    <path d="M15 7.5H0M7.5 15V0" stroke="currentColor"></path>
+                  </svg>
+                </div>
+                <div className="home_div_section4_area_body_2_cont1_txt">
+                  <div className="home_div_section4_area_body_2_cont1_txt_title">
+                    Affordable EV Production
+                  </div>
+                  Egochain's track-and-trace features enable manufacturers to
+                  fight counterfeit parts and prevent diversion in their supply
+                  chains. This ensures product quality, reduces waste, and cuts
+                  costs related to fraudulent components, leading to more
+                  affordable electric vehicles (EVs).
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="/img/grains_ellipse.png" alt="" className="grains_ellipse" />
+        <img
+          src="/img/test_hero_light2.svg"
+          alt=""
+          className="home_div_section1_bg_light2"
+        />
+      </section>
+      {/* ====== */}
+      {/* ====== */}
+      {/* ====== */}
       <section className="home_div_section2">
         <div className="container">
           <div className="home_div_section3_area">
             <div className="home_div_section3_area_title">
-              Why Build on Egochain?
+              Build on the fastest blockchain in the industry.
               <div className="home_div_section3_area_para">
                 Build interoperable decentralized applications with the combined
                 power of Ethereum's swift smart contract development and Cosmos
@@ -753,6 +889,7 @@ const Home = () => {
       {/* ====== */}
       {/* ====== */}
       {/* ====== */}
+
       <section className="home_div_section4">
         <div className="container">
           <div className="home_div_section4_area">
@@ -863,6 +1000,11 @@ const Home = () => {
           src="/img/test_hero_light4.svg"
           alt=""
           className="home_div_section1_bg_light4"
+        />
+        <img
+          src="/img/test_hero_light3.svg"
+          alt=""
+          className="home_div_section1_bg_light3"
         />
       </section>
       {/* ====== */}
@@ -1206,7 +1348,7 @@ const Home = () => {
           >
             <div className="home_div_section6_area_community_2">
               <div className="home_div_section6_area_community_2_title">
-                Join the Egochain commnity
+                Join the Egochain community
                 <div className="home_div_section6_area_community_2_title_para">
                   Take part in the conversation! Stay in the know & be the first
                   to hear about any new updates
