@@ -448,13 +448,14 @@ const Home = () => {
                 </div>
                 <div className="home_div_section4_area_body_2_cont1_txt">
                   <div className="home_div_section4_area_body_2_cont1_txt_title">
-                    Affordable EV Production
+                    Enhanced Charging Infrastructure
                   </div>
-                  Egochain's track-and-trace features enable manufacturers to
-                  fight counterfeit parts and prevent diversion in their supply
-                  chains. This ensures product quality, reduces waste, and cuts
-                  costs related to fraudulent components, leading to more
-                  affordable electric vehicles (EVs).
+                  Egochain offers a solution through an open-source network of
+                  charging stations built on blockchain technology. This
+                  decentralized approach enables ownership for anyone, including
+                  local businesses like grocery stores. Securely recorded
+                  transactions on the blockchain minimize fraud and streamline
+                  operations, further enhancing the charging infrastructure.
                 </div>
               </div>
               <div className="home_div_section4_area_body_2_cont1">
@@ -473,38 +474,15 @@ const Home = () => {
                 </div>
                 <div className="home_div_section4_area_body_2_cont1_txt">
                   <div className="home_div_section4_area_body_2_cont1_txt_title">
-                    Affordable EV Production
+                    Reduced Charging Costs
                   </div>
-                  Egochain's track-and-trace features enable manufacturers to
-                  fight counterfeit parts and prevent diversion in their supply
-                  chains. This ensures product quality, reduces waste, and cuts
-                  costs related to fraudulent components, leading to more
-                  affordable electric vehicles (EVs).
-                </div>
-              </div>
-              <div className="home_div_section4_area_body_2_cont1">
-                <div className="home_div_section4_area_body_2_cont1_icon">
-                  <svg
-                    data-v-44de1e4b=""
-                    width="15"
-                    height="15"
-                    viewBox="0 0 15 15"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="crosshair z-2 p-relative"
-                  >
-                    <path d="M15 7.5H0M7.5 15V0" stroke="currentColor"></path>
-                  </svg>
-                </div>
-                <div className="home_div_section4_area_body_2_cont1_txt">
-                  <div className="home_div_section4_area_body_2_cont1_txt_title">
-                    Affordable EV Production
-                  </div>
-                  Egochain's track-and-trace features enable manufacturers to
-                  fight counterfeit parts and prevent diversion in their supply
-                  chains. This ensures product quality, reduces waste, and cuts
-                  costs related to fraudulent components, leading to more
-                  affordable electric vehicles (EVs).
+                  Egochain incentivizes green transportation by rewarding EV
+                  owners with tokens for using less popular charging stations.
+                  This approach balances the electrical grid load, promotes
+                  energy efficiency, and contributes to a cleaner transportation
+                  ecosystem. By reducing charging costs, Egochain tackles range
+                  anxiety, a crucial step towards a successful transition to
+                  sustainable mobility.
                 </div>
               </div>
             </div>
