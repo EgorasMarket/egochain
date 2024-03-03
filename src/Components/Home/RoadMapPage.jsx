@@ -286,7 +286,7 @@ const RoadMapPage = () => {
                   Chidubem Michael
                 </div>
                 <div className="egox_token_div_section2_area_body_cont1_links_txt">
-                  Full Stack Engineer / Blockchain Developer
+                  Full Stack Engineer / Lead Blockchain Developer
                   <div className="egox_token_div_section2_area_body_cont1_links">
                     <a
                       href="https://www.linkedin.com/in/coda247/"
