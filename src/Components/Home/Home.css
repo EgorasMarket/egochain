@@ -1,7 +1,7 @@
 .home_div_section1 {
   position: relative;
   padding: 6em 0em;
-  padding-top: 7em;
+  padding-top: 0em;
   overflow: hidden;
   height: 100dvh;
   display: flex;
@@ -745,7 +745,8 @@ p {
 }
 @media (max-width: 999px) {
   .home_div_section1 {
-    padding-top: 6em;
+    padding-top: 1em;
+    padding-bottom: 0em;
   }
   .home_div_section1_area_1_div1_txt1 {
     font-size: 72px;
@@ -996,7 +997,9 @@ p {
     margin-bottom: -20em;
   }
   .home_div_section1 {
-    height: 65dvh;
+    height: 70dvh;
+    padding-top: 0em;
+    padding-bottom: 4em;
   }
   .home_div_section1_area {
     display: flex;

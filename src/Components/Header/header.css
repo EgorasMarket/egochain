@@ -1,14 +1,24 @@
 .header_div {
-  position: fixed;
+  position: sticky;
   z-index: 100;
-  width: 100vw;
+  width: 100%;
   background: #0000001c;
   color: #fff;
   backdrop-filter: blur(20px);
   top: 0;
   left: 0;
   padding: 1em 0em;
-  border-bottom: solid 1px #2626268c;
+  border-bottom: solid 1px #3cd19a54;
+}
+.header_partial_div {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+  background: linear-gradient(45deg, #2fa277, #0b4727);
+  font-size: 18px;
 }
 .header_div_area {
   display: flex;
@@ -273,5 +283,9 @@
   }
   .headerMenuDiv_cont_body .headerMenuDiv_cont_body_div .header_div_area_2_btn {
     margin: 0;
+  }
+  .header_partial_div {
+    padding: 10px 0px;
+    font-size: 14px;
   }
 }
