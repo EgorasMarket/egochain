@@ -887,8 +887,8 @@ p {
     margin-top: 1em;
   }
   .home_div_section1_area_2_spline_scene {
-    width: 300px !important;
-    height: 300px !important;
+    width: 250px !important;
+    height: 250px !important;
     border-radius: 50%;
     overflow: hidden;
   }
@@ -993,7 +993,7 @@ p {
     padding: 4em 0;
   }
   .home_div_section1_area_1 {
-    margin-bottom: -22em;
+    margin-bottom: -20em;
   }
   .home_div_section1 {
     height: 65dvh;
