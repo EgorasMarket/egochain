@@ -317,7 +317,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="home_div_section1_area_1_div2">
-                <a href="https://egoscan.io/" target="_blank">
+                <a href="https://testnet.egoscan.io/" target="_blank">
                   <button className="home_div_section1_area_1_div2_btn">
                     Explorer
                   </button>
