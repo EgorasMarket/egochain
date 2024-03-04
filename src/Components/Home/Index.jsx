@@ -311,10 +311,9 @@ const Home = () => {
                 </div>
                 <div className="home_div_section1_area_1_div1_txt2">
                   Egochain is a public, permissionless Layer 1 blockchain
-                  protocol designed to accelerate the global transition to
-                  electric vehicles. It leverages the combined strengths of
-                  Cosmos' high transaction speed and interoperability with
-                  Ethereum's robust developer ecosystem.
+                  protocol aimed at fast-tracking the global shift to EVs. It
+                  combines Cosmos' rapid transactions and compatibility with
+                  Ethereum's developer ecosystem.
                 </div>
               </div>
               <div className="home_div_section1_area_1_div2">
