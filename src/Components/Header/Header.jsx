@@ -191,7 +191,7 @@ const Header = () => {
                     <CallMadeIcon className="header_div_area_2_link1_icon2" />
                   </a>
                   <a
-                    href="https://egoscan.io/"
+                    href="https://testnet.egoscan.io/"
                     className="header_div_area_2_link1"
                     target="_blank"
                   >
@@ -307,7 +307,7 @@ const Header = () => {
                   <CallMadeIcon className="header_div_area_2_link1_icon" />
                 </a>
                 <a
-                  href="https://egoscan.io/"
+                  href="https://testnet.egoscan.io/"
                   className="headerMenuDiv_cont_body_link1"
                   target="_blank"
                 >
