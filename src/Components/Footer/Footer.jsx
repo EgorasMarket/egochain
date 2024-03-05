@@ -114,7 +114,7 @@ const Footer = () => {
                     <CallMadeIcon className="header_div_area_2_link1_icon" />
                   </a>
                   <a
-                    href="https://egoscan.io/"
+                    href="https://testnet.egoscan.io/"
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
                   >

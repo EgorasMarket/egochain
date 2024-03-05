@@ -60,6 +60,77 @@
   margin-top: 1em;
   color: #abd0c1;
 }
+.egox_token_div_section2_area_1_head {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #acacac;
+}
+.egox_token_div_section2_area_1_head_title {
+  font-size: 72px;
+  font-weight: 600;
+  width: 90%;
+  line-height: 1;
+}
+.egox_token_div_section2_area_1_head_para {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.egox_token_div_section2_area_card_body {
+  margin-top: 2em;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.egox_token_div_section2_area_body_cont1_card {
+  background: linear-gradient(178deg, #2f4d4b5c, #3449481c);
+  padding: 2em;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.egox_token_div_section2_area_body_cont1_title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.egox_token_div_section2_area_body_cont1_links_txt {
+  margin-top: 2em;
+}
+.egox_token_div_section2_area_body_cont1_links {
+  margin-top: 10px;
+}
+.egox_token_div_section2_area_body_cont1_links_link_icon {
+  margin-right: 10px;
+  background: #fff;
+  color: #000;
+  padding: 9px;
+  border-radius: 50px;
+}
+.egox_token_div_section2_area_body_cont1_links_link_img {
+  width: 30px;
+  background: #fff;
+  margin-right: 10px;
+  border-radius: 50px;
+  padding: 5px;
+}
+.home_div_section1_area_2 {
+  position: relative;
+}
+.home_div_section1_area_2_img {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
 .egox_token_div_section1area2 {
   width: 100%;
   display: flex;
@@ -286,6 +357,25 @@
   .egox_token_div_section3_area_body svg {
     height: 350px !important;
   }
+
+  .egox_token_div_section2_area_card_body {
+    margin-top: 2em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .egox_token_div_section2_area_1_head_title {
+    font-size: 48px;
+    font-weight: 600;
+    width: 90%;
+    line-height: 1;
+  }
+  .egox_token_div_section2_area_1_head_para {
+    font-size: 18px;
+    margin-top: 10px;
+  }
 }
 @media (max-width: 767px) {
   /* .egox_token_div_section3 {
@@ -389,6 +479,25 @@
   }
   .egox_token_div_section3_area_body_img {
     width: 100%;
+  }
+  .egox_token_div_section2_area_card_body {
+    margin-top: 2em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .egox_token_div_section2_area_1_head_title {
+    font-size: 32px;
+    font-weight: 600;
+    width: 90%;
+    line-height: 1;
+  }
+  .egox_token_div_section2_area_1_head {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #acacac;
   }
 }
 @media (max-width: 396px) {
