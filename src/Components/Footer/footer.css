@@ -11,7 +11,17 @@
   align-items: center;
   text-align: center;
 }
-
+.audited_by_div {
+  display: flex;
+  align-items: center;
+  margin-top: 2em;
+  cursor: pointer;
+  color: #fff;
+}
+.audited_by_div_img {
+  width: 140px;
+  margin-left: 5px;
+}
 .footerDiv1_img {
   width: 95px;
 }
@@ -214,5 +224,12 @@
 
   .footerDiv {
     padding: 2em 0em;
+  }
+  .audited_by_div {
+    display: flex;
+    align-items: center;
+    margin-top: 0em;
+    margin-bottom: 2em;
+    cursor: pointer;
   }
 }

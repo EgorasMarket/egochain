@@ -80,6 +80,14 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
+              <a target="_blank" href="/audit.pdf" className="audited_by_div">
+                Audited By
+                <img
+                  src="/img/cyberscope_logo.webp"
+                  alt=""
+                  className="audited_by_div_img"
+                />
+              </a>
             </div>
             <div className="footerDiv1_area2">
               <div className="footerDiv1_area2_cont1">
