@@ -81,13 +81,20 @@ const Egostation = () => {
                 ownership of its “EgoStation” charging stations
               </div>
             </div>
-            <div className="egostation_div_section_area_2">
+            <motion.div
+              variants={fadeIn("Up")}
+              transition={transition()}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: false }}
+              className="egostation_div_section_area_2"
+            >
               <img
                 src="/img/egostation.png"
                 alt=""
                 className="egostation_div_section_area_2_img"
               />
-            </div>
+            </motion.div>
           </div>
         </div>
         <img

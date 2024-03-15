@@ -141,6 +141,12 @@ const Footer = () => {
                     Ego Wallet
                   </a>
                   <a
+                    href="/station"
+                    className="footerDiv1_area2_title_subLinks_div_link1"
+                  >
+                    Ego Station
+                  </a>
+                  <a
                     href="https://egoswap.io"
                     className="footerDiv1_area2_title_subLinks_div_link1"
                     target="_blank"
