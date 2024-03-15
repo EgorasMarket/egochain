@@ -172,6 +172,9 @@ const Header = () => {
               <a href="/wallet" className="header_div_area_2_link1">
                 Ego Wallet
               </a>
+              <a href="/station" className="header_div_area_2_link1">
+                Ego Station
+              </a>
               <a
                 href="https://github.com/EgorasMarket"
                 className="header_div_area_2_link1"
@@ -244,6 +247,9 @@ const Header = () => {
               <div className="headerMenuDiv_cont_body">
                 <a href="/wallet" className="headerMenuDiv_cont_body_link1">
                   Ego Wallet
+                </a>
+                <a href="/station" className="headerMenuDiv_cont_body_link1">
+                  Ego Station
                 </a>
                 <a
                   href={

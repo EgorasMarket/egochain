@@ -1,0 +1,128 @@
+.egostation_div_section {
+  position: relative;
+  padding: 6em 0em;
+  padding-top: 5em;
+  overflow: hidden;
+  /* height: 100dvh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.egostation_div_section_area {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.egostation_div_section_area_1 {
+  font-size: 82px;
+  color: #fff;
+  margin-bottom: 0.8em;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.egostation_div_section_area_1_title {
+  text-align: center;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-weight: 700;
+  width: 80%;
+}
+.egostation_div_section_area_1_para {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  width: 70%;
+}
+
+.egostation_div_section_area_2_img {
+  width: 100%;
+}
+.egostation_div_section_area_2 {
+  width: 100%;
+}
+/* ====================== */
+/* ====================== */
+/* ====================== */
+/* ====================== */
+/* ====================== */
+/* ====================== */
+/* ====================== */
+/* ====================== */
+.egostation_div_section_how_it_works {
+  position: relative;
+  padding: 6em 0em;
+  padding-top: 5em;
+  overflow: hidden;
+  /* height: 100dvh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.egostation_div_section_how_it_works_area {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.egostation_div_section_how_it_works_area_title {
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.egostation_div_section_how_it_works_area_para {
+  width: 70%;
+  margin-bottom: 2em;
+  font-size: 24px;
+  color: #c3d0cf;
+}
+.home_div_section3_area_body_cont1_body_text_para_div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+.home_div_section3_area_body_cont1_body_text_para_div_li {
+  font-size: 15px;
+  color: #b1cfc4;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.home_div_section3_area_body_cont1_body_text_para_div_li_title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 767px) {
+  .egostation_div_section_area_1 {
+    font-size: 42px;
+    color: #fff;
+    margin-bottom: 0.8em;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .egostation_div_section_area_1_title {
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-weight: 700;
+    width: 100%;
+  }
+  .egostation_div_section_area_1_para {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: center;
+    width: 90%;
+  }
+  .egostation_div_section {
+    padding: 2em 0em;
+    padding-top: 2em;
+  }
+}
