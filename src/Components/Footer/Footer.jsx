@@ -37,7 +37,7 @@ const Footer = () => {
               <div className="footerDiv1_area1_cont2">
                 <div className="footerDiv1_area1_cont2_links">
                   <a
-                    href="https://twitter.com/egorasHQ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                    href="https://twitter.com/egochainHQ"
                     className="footerDiv1_area1_cont2_links_link_tel"
                     target="_blank"
                   >
@@ -48,7 +48,7 @@ const Footer = () => {
                   </a>
 
                   <a
-                    href="https://t.me/s/egorasmarket?before=480"
+                    href="https://t.me/egochainHQ"
                     className="footerDiv1_area1_cont2_links_link_tel"
                     target="_blank"
                   >
@@ -69,7 +69,7 @@ const Footer = () => {
                   </a>
 
                   <a
-                    href="https://www.youtube.com/channel/UCHfi5EwXig46xp5Dx8hVBHQ"
+                    href="https://www.youtube.com/@EgochainHQ"
                     className="footerDiv1_area1_cont2_links_link_tel"
                     target="_blank"
                   >

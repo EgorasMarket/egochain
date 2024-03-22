@@ -1334,13 +1334,14 @@ const Home = () => {
               <div className="home_div_section6_area_community_2_links">
                 <a
                   target="_blank"
-                  href="https://twitter.com/egorasHQ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+                  href="https://twitter.com/egochainHQ"
                   className="home_div_section6_area_community_2_links_cont1"
                 >
                   <XIcon
                     className="home_div_section6_area_community_2_links_cont1_icon"
                     style={{ background: "#000" }}
                   />
+                  e
                   <div className="home_div_section6_area_community_2_links_cont1_text">
                     <div className="home_div_section6_area_community_2_links_cont1_text_title">
                       X
@@ -1352,7 +1353,7 @@ const Home = () => {
                 </a>
                 <a
                   target="_blank"
-                  href="https://t.me/s/egorasmarket?before=480"
+                  href="https://t.me/egochainHQ"
                   className="home_div_section6_area_community_2_links_cont1"
                 >
                   <TelegramIcon className="home_div_section6_area_community_2_links_cont1_icon" />
@@ -1366,7 +1367,7 @@ const Home = () => {
                   </div>
                 </a>
                 <a
-                  href="https://www.youtube.com/channel/UCHfi5EwXig46xp5Dx8hVBHQ"
+                  href="https://www.youtube.com/@EgochainHQ"
                   className="home_div_section6_area_community_2_links_cont1"
                 >
                   <YouTubeIcon
